@@ -1,0 +1,65 @@
+body {
+  background-color: #000000;
+}
+
+.articleSection {
+  background-color: #fff;
+  margin: 0;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.articleSection #otherArticles,
+.articleSection article {
+  padding-top: 20px;
+  float: left;
+}
+.articleSection article {
+  width: 75%;
+  padding-right: 20px;
+}
+.articleSection article img {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+.articleSection article p {
+  margin: 0 0 10px 0;
+}
+.articleSection article .articleHeading {
+  font-weight: 500;
+  color: #0071bc;
+  margin: 20px 0 5px 0;
+}
+
+.articleSection #otherArticles {
+  width: 25%;
+}
+.articleSection #otherArticles ul {
+  margin: 0;
+  padding-left: 0;
+}
+.articleSection #otherArticles ul li {
+  margin: 10px 0;
+  line-height: 17px;
+  display: block;
+  cursor: pointer;
+}
+.articleSection #otherArticles ul li:hover {
+  color: #0071bc;
+  font-weight: 500;
+}
+
+.articleSection h4 {
+  margin: 0 0 25px 0;
+  font-size: 22px;
+  color: #0071bc;
+  line-height: 22px;
+}
+.articleSection article p a {
+  color: #0071bc;
+  text-decoration: underline;
+}
+.articleSection article ul {
+  padding-left: 20px;
+}

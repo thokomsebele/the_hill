@@ -1,0 +1,85 @@
+article_id : article_c
+
+
+
+article_heading : The hardware you need for a retail POS system..
+
+
+
+article_summary : Get ready to dive into the exciting world of retail technology! From touch screen computers 
+to lightning-fast barcode scanners, we’ll explore the gear that powers seamless transactions and enhances 
+customer experiences.
+
+
+
+Our previous articles have established the importance of a POS system in retail outlets. I hope you have 
+read them, if not please click here.
+
+
+
+Lets now take a look at the hardware that is necessary for a modern retail outlet to operate efficiently. 
+You'll be happy to learn that all of the elements that will be discussed in this section are readily available.
+
+
+
+HH 01 - Computer
+
+
+
+Computer software runs from the CPU, while transactions are displayed on the monitor. Paperless Retail is 
+a software that is optimized to work for touch screen computers, but it can also work quite well with a keyboard. 
+The mouse is not necessary for performing transactions. Touch screen computer systems are more user friendly 
+than traditional computer systems which use a keyboard and mouse.
+
+
+
+HH 02 - Barcode Scanner
+
+
+
+You might also need a barcode scanner. Scanning barcodes is the fastest way to pull product info from the 
+database and add it into the cart. It's not the only way to add items to the cart, so if funds are limited your 
+retail outlet can operate without one.
+
+
+
+HH 03 - Thermal Receipt Printer
+
+
+
+Paper receipts have and will always remain essential for providing customers with a quick snapshot of their 
+purchase or returns. They also play a key role in store security. So having a thermal printer to print out 
+these receipts is a must. But WHY a thermal printer in particular? you may ask. The advantages of thermal 
+printers are as follows:
+BBB Lower maintenance costs.
+BBB Excellent print quality.
+BBB High reliability.
+BBB Easy handling — no ink / ribbon.
+BBB High speed printing.
+BBB Easy paper loading.
+
+
+
+HH 04 - Cash Drawer
+
+
+
+HH 05 - Credit Card Reader
+
+
+
+HH Conclusion
+
+
+
+Most retail outlets already possess the hardware elements mentioned in this article, so getting started with 
+Paperless Retail is not difficult. Download the software, and contact Paperless Integrated Solutions for a 
+free 1 month license.
+
+
+
+However, you may have been using the paper and pen method all this time and you now want to go digital. 
+Paperless Integrated Solutions is a supplier of original hardware elements required for a POS system. 
+Contact them for a quote.
+
+

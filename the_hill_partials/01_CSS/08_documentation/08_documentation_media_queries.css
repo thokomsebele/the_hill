@@ -1,0 +1,91 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 319px) {
+  body .documentation .paragraph .documentationLogo span {
+    display: none;
+  }
+  body .documentation .paragraph {
+    margin: 10px;
+    display: block;
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 699px) {
+  body .documentation .paragraph {
+    display: block;
+    margin: 20px 0 20px 0;
+  }
+  body .documentation .paragraph .documentationLogo {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  body .documentation .paragraph .documentationLogo span {
+    margin: 0;
+  }
+  body .documentation .paragraph .documentationLogo h4 {
+    margin: 0;
+    margin-left: 10px;
+    line-height: 20px;
+    text-align: left;
+    display: block;
+    overflow: hidden;
+  }
+  body .documentation .paragraph .documentationText h4 {
+    display: none;
+  }
+  body .documentation .noLogo .documentationLogo {
+    display: block;
+  }
+  body .documentation .noLogo .documentationLogo h4 {
+    margin-left: 0;
+    max-width: unset;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 359px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 165px;
+  }
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 399px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 210px;
+  }
+}
+
+@media only screen and (min-device-width: 400px) and (max-device-width: 449px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (min-device-width: 450px) and (max-device-width: 499px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 290px;
+  }
+}
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 549px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 350px;
+  }
+}
+
+@media only screen and (min-device-width: 550px) and (max-device-width: 599px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 390px;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 649px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 440px;
+  }
+}
+
+@media only screen and (min-device-width: 650px) and (max-device-width: 699px) {
+  body .documentation .paragraph .documentationLogo h4 {
+    max-width: 480px;
+  }
+}

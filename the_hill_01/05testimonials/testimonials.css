@@ -1,0 +1,38 @@
+#testimonialSection {
+  margin: 50px 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#testimonialSection #testimonialDivContainer {
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 100%;
+}
+
+#testimonialSection .testimonialDiv {
+  height: 100%;
+  width: 30%;
+}
+
+#testimonialSection .testimonialDiv img {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#testimonialSection .testimonialDiv h3 {
+  margin-bottom: 2px;
+  font-size: 20px;
+  line-height: 20px;
+}
+#testimonialSection .testimonialDiv h4 {
+  margin-bottom: 7px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#testimonialSection .testimonialDiv p {
+  margin-bottom: 5px;
+}

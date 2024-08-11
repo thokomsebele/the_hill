@@ -1,0 +1,66 @@
+body {
+  background-color: #ffffff;
+}
+
+.whySection {
+  background-color: #0071bc;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.whySection h2 {
+  margin: 10px 0 35px 0;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-size: 35px;
+  font-weight: 900;
+  line-height: 35px;
+}
+
+.whySection h2 span {
+  color: #39b54a;
+}
+
+.whySection .whySectionContent {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.whySection .whySectionContent div {
+  width: 250px;
+  float: left;
+}
+
+.whySection .whySectionContent div h4,
+.whySection .whySectionContent div p,
+.whySection .whySectionContent div svg {
+  float: left;
+}
+
+.whySection .whySectionContent div svg {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  fill: #39b54a;
+  margin-bottom: 25px;
+  border-radius: 30px;
+  padding: 5px;
+  border: none;
+}
+
+.whySection .whySectionContent div h4,
+.whySection .whySectionContent div p {
+  margin: 0;
+  width: 190px;
+  margin-left: 25px;
+  color: #fff;
+  font-size: 13px;
+}
+
+.whySection .whySectionContent div h4 {
+  font-size: 18px;
+  line-height: 12px;
+  margin-bottom: 10px;
+}

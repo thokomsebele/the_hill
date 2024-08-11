@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include "metadata.njk" %}
+    {% for fileName in cssFilesArray %}
+    <link rel="stylesheet" href="./css/{{fileName}}.css" />
+    {% endfor %}
+    <title>Paperless - Enterprise software for every business.</title>
+  </head>
+  <body>
+    {% include "01_navbar.njk" %}
+    {% include "05_banner.njk" %}
+    {% include "09_article.njk" %}
+    {% include "04_why.njk" %}
+    {% include "10_footer.njk" %}
+  </body>
+</html>

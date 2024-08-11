@@ -1,0 +1,61 @@
+#staffSection {
+  margin: 50px 0;
+  padding-bottom: 20px;
+  float: left;
+}
+
+#staffSection #staffDivContainer {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 100%;
+}
+
+#staffSection .staffDiv {
+  height: 100%;
+  width: 30%;
+  background: #f5f4ff;
+  padding: 15px;
+}
+
+#staffSection .staffDiv p {
+  margin-bottom: 5px;
+}
+
+#staffSection .staffDiv h4 {
+  margin-bottom: 7px;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+#staffSection .staffDiv hr {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+#staffSection .staffDiv .staffDiv_lastRow {
+  float: left;
+  height: 110px;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol,
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol {
+  width: 25%;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol {
+  width: 75%;
+}
+#staffSection .staffDiv .staffDiv_lastRow_textCol_inner {
+  width: 100%;
+  padding: 0 10px;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol img {
+  width: 100%;
+  float: left;
+}

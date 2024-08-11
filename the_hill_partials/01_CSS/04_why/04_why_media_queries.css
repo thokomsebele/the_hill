@@ -1,0 +1,36 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  body .whySection h2 {
+    text-align: left;
+  }
+
+  body .whySection .whySectionContent {
+    display: block;
+    float: left;
+    margin-bottom: 0;
+  }
+
+  body .whySection .whySectionContent div {
+    width: 100%;
+    height: unset;
+    margin-bottom: 20px;
+  }
+
+  body .whySection .whySectionContent div h4,
+  body .whySection .whySectionContent div p {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 269px) {
+  html body .whySection .whySectionContent div h4,
+  html body .whySection .whySectionContent div p {
+    width: 51%;
+  }
+}
+
+@media only screen and (min-device-width: 270px) and (max-device-width: 329px) {
+  html body .whySection .whySectionContent div h4,
+  html body .whySection .whySectionContent div p {
+    width: 70%;
+  }
+}

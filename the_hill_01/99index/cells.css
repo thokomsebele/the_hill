@@ -1,0 +1,53 @@
+#cellsSection {
+  float: left;
+}
+
+#cellsSection .cellDiv {
+  width: 33%;
+  height: 100px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+#cellsSection .cellDiv .cellDiv_svgContainer,
+#cellsSection .cellDiv .cellDiv_textContainer {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cellsSection .cellDiv .cellDiv_svgContainer {
+  width: 30%;
+}
+#cellsSection .cellDiv .cellDiv_textContainer {
+  width: 70%;
+}
+
+#cellsSection .cellDiv .cellDiv_svgContainer svg {
+  width: 75px;
+  float: left;
+  display: block;
+}
+
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4,
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
+  width: 100%;
+  float: left;
+}
+
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4 {
+  margin-bottom: 10px;
+}
+
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
+  font-size: 13px;
+  line-height: 14px;
+}
+
+#cellsSection .cellDiv.cellDiv_01,
+#cellsSection .cellDiv.cellDiv_02,
+#cellsSection .cellDiv.cellDiv_04,
+#cellsSection .cellDiv.cellDiv_05 {
+  border-right: 2px solid #ffcb05;
+}

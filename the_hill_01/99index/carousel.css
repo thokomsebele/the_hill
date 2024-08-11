@@ -1,0 +1,50 @@
+#carouselSection {
+  padding: 0;
+}
+
+#carouselSection #carouselContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  transition: transform 1s ease;
+}
+
+#carouselSection #carouselContainer .carouselFace {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#carouselSection #carouselContainer .carouselFace img {
+  width: 100%;
+}
+
+#carouselSection #carouselContainer .carouselFace p {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  padding: 10px;
+  color: black;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#carouselSection #left,
+#carouselSection #right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f5f4ff;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#carouselSection #left {
+  left: 10px;
+}
+#carouselSection #right {
+  right: 10px;
+}

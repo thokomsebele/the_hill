@@ -1,0 +1,229 @@
+body {
+  background-color: #ffffff;
+}
+
+.heroSection {
+  width: 100%;
+  margin-top: 80px;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0 50px 0;
+}
+
+.heroSection .heroSlide {
+  display: none;
+}
+.heroSection .heroSlide.heroSlide_displayed {
+  display: block !important;
+}
+
+.heroSection .heroContent {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.heroSection .heroContent .heroSlideNumber {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #39b54a;
+  font-size: 50px;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.heroSection .heroContent .heroText {
+  border-top: 1px solid #39b54a;
+  width: 400px;
+}
+
+.heroSection .heroContent .heroText h2,
+.heroSection .heroContent .heroText li span,
+.heroSection .heroContent p {
+  color: #fff;
+}
+
+.heroSection .heroContent .heroText h2 {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 32px;
+}
+
+.heroSection .heroContent .heroText p {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.heroSection .heroContent .heroText .heroBoldText {
+  margin: 0;
+  margin-top: 30px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.heroSection .heroContent .heroText .heroMiniText {
+  margin: 0;
+  font-size: 13px;
+}
+
+.heroSection .heroContent .heroText .features {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.heroSection .heroContent .heroText .features li {
+  width: 50%;
+  float: left;
+  font-size: 13px;
+  height: 25px;
+  line-height: 25px;
+  font-weight: lighter;
+  margin: 2px 0;
+}
+
+.heroSection .heroContent .heroText .features li span {
+  height: 100%;
+  float: left;
+}
+
+.heroSection .heroContent .heroText .features li .svgSpan,
+.heroSection .svgSpan {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+  background-color: #0071bc;
+  border-radius: 25px;
+}
+
+.heroSection .heroContent .heroText .features li .svgSpan svg,
+.heroSection .svgSpan svg {
+  height: 100%;
+  padding: 5px;
+  fill: #ffffff;
+}
+
+.heroSection .heroContent .heroText .ctaBtns .ctaBtn2 {
+  border: none;
+}
+
+.heroSection .ctaBtns {
+  height: 100%;
+  width: 100%;
+}
+
+.heroSection .heroMenu {
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  background-color: #0071bc;
+  left: 0;
+  bottom: 0;
+}
+
+.heroSection .heroMenu ul {
+  margin: 0;
+  margin-right: 90px;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  float: right;
+  height: 100%;
+  background-color: #fff;
+}
+
+.heroSection .heroMenu ul li {
+  display: inline-block;
+  height: 100%;
+  width: 100px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  background-color: #0071bc;
+  float: left;
+  font-size: 14px;
+}
+
+.heroSection .heroMenu ul .currentFeature {
+  border-bottom: 5px solid #fff;
+  background-color: rgba(0, 113, 188, 0.75);
+}
+
+.heroSection .slideSelectDiv {
+  width: 70%;
+  left: 15%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  bottom: -30px;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton {
+  background-color: #fff;
+  border: none;
+  border-radius: 20px;
+  float: left;
+  display: flex;
+  padding: 5px 7.5px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton .svgSpan,
+.heroSection .slideSelectDiv .slideSelectButton p {
+  height: 100%;
+  float: left;
+  height: 25px;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton .svgSpan {
+  position: absolute;
+  margin-right: 0;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  background-color: #ffffff;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton .svgSpan svg {
+  height: 100%;
+  padding: 1px;
+  fill: #0071bc;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton p {
+  float: left;
+  margin: 0;
+  line-height: 25px;
+  font-weight: bold;
+  color: rgba(0, 113, 188, 0.75);
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 5px;
+}
+
+.heroSection .slideSelectDiv .slideSelectButton p span {
+  font-size: 12px;
+  color: #0071bc;
+  text-align: center;
+  height: 100%;
+  line-height: 20px;
+}
+
+.heroSection .heroScreenshot {
+  width: 600px;
+  position: absolute;
+  right: 100px;
+  top: 110px;
+  border-radius: 10px;
+}
+
+.heroSection .heroScreenshot img {
+  width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,36 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  body .footer .newsletterColumn,
+  body .footer .column {
+    width: 100%;
+    padding: 5px 0;
+    margin-bottom: 20px;
+  }
+
+  body .footer .socialMediaColumn h5,
+  body .footer .socialMediaColumn ul li {
+    text-align: left;
+  }
+
+  body .footer .column #icons {
+    margin: 0;
+  }
+
+  body .footer hr {
+    margin: 10px 0 25px 0;
+  }
+
+  body .footer .logos {
+    display: block;
+    height: unset;
+  }
+
+  body .footer .logos #byoSoftware {
+    height: 50px;
+    padding: 10px 0;
+    display: block;
+  }
+
+  body .footer .row #copyright {
+    width: 100%;
+  }
+}

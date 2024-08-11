@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+  color: #707070;
+}
+
+.section {
+  width: 100%;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  float: left;
+}
+
+body {
+  background-color: #fff;
+  margin: 0;
+}
+
+.backgroundImg {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.ctaBtns {
+  float: left;
+  margin: 0;
+}
+
+.ctaBtns .ctaBtn {
+  height: 34px;
+  margin: 13px 0;
+  padding: 0;
+  float: left;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #39b54a;
+  color: #fff;
+  border: none;
+}
+
+.ctaBtns .ctaBtn:first-of-type {
+  margin-right: 10px;
+}
+
+.ctaBtns .ctaBtn svg {
+  padding: 8px;
+  float: left;
+  height: 100%;
+}
+
+.ctaBtns .ctaBtn span {
+  margin: 0 15px 0 5px;
+  display: inline-block;
+  line-height: 34px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+body .ctaBtns .ctaBtn2 {
+  border: 1px solid #39b54a;
+  background-color: #fff;
+}
+
+body .ctaBtns .ctaBtn2 span {
+  color: #39b54a;
+}
+
+body .ctaBtn svg {
+  fill: #ffffff;
+}
+body .ctaBtn.ctaBtn2 svg {
+  fill: #39b54a;
+}
+
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+.mseLink {
+  color: #0071bc;
+  font-weight: 500;
+  text-decoration: underline;
+}

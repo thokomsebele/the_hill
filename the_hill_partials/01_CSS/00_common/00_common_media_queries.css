@@ -1,0 +1,53 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 319px) {
+  body .section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  body .desktopOnlyElement {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 999px) {
+  body .section {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  body .desktopOnlyElement {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 799px) {
+  body .section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 999px) {
+  body .section {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+}
+
+@media only screen and (min-device-width: 1000px) {
+  body .mobileOnlyElement {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 599px) {
+  body .backgroundAfter600px {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 600px) {
+  body .backgroundBefore600px {
+    display: none;
+  }
+}

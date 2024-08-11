@@ -1,0 +1,48 @@
+<div class="section header">
+  <a href="{{pageLinks.index}}">{% include "logoA.njk" %}</a>
+
+  <div class="ctaBtns desktopOnlyElement">
+    <a href="{{pageLinks.catalogue}}">
+      <div class="ctaBtn">
+        {% include "download.njk" %}
+        <span>Catalogue</span>
+      </div>
+    </a>
+  </div>
+
+  <ul class="navbar">
+    <a href="{{pageLinks.index}}">
+      {% if (pageName == "index") %}<li class="currentPage">{% else %}<li>{% endif %}
+        Home
+        <span></span>
+      </li>
+    </a>
+    <a href="{{pageLinks.catalogue}}">
+      {% if (pageName == "catalogue") %}<li class="mobileOnlyElement currentPage">
+      {% else %}<li class="mobileOnlyElement">{% endif %}
+        Catalogue
+        <span></span>
+      </li>
+    </a>
+    <a href="{{pageLinks.article_a}}">
+      {% if (articleBoolean) %}<li class="currentPage">{% else %}<li>{% endif %}
+        Articles
+        <span></span>
+      </li>
+    </a>
+    <a href="{{pageLinks.contact_us}}">
+      {% if (pageName == "contact_us") %}<li class="currentPage">{% else %}<li>{% endif %}
+        Contact Us
+        <span></span>
+      </li>
+    </a>
+  </ul>
+
+  <div id="hamburger" class="mobileOnlyElement">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+<script type="text/javascript" src="{{jsFolder}}/hamburger.js"></script>

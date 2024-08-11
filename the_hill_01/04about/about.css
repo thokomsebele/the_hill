@@ -1,0 +1,33 @@
+#aboutSection {
+  height: 400px;
+  margin: 50px 0;
+  display: flex;
+}
+
+#aboutSection #aboutSection_videoDiv {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 60%;
+}
+#aboutSection #aboutSection_videoDiv iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#aboutSection #aboutSection_textDiv {
+  width: 40%;
+  height: 100%;
+  padding: 10px;
+}
+#aboutSection #aboutSection_textDiv h4 {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+#aboutSection #aboutSection_textDiv p {
+  margin-bottom: 6px;
+  font-size: 17px;
+}
