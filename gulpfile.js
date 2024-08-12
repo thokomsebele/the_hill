@@ -9,12 +9,6 @@ const sectionsArray = require("./gulpVariables/sectionsArray");
 const pagesArray = require("./gulpVariables/pagesArray");
 let pageLinks = {
   index: "./index.html",
-  article_a: "./article_a.html",
-  article_b: "./article_b.html",
-  article_c: "./article_c.html",
-  contact_us: "./contact_us.html",
-  catalogue: "./catalogue.html",
-  paperless_retail: "./paperless_retail.html",
 };
 
 gulp.task("sections", async function () {
@@ -44,7 +38,7 @@ gulp.task("pages", async function () {
       pg.resourcesFolder = "./resources";
       let pgSects = ["01_Navbar"];
       pgSects = pgSects.concat(pg.pageSections);
-      let htmlPartials = ["03_HTML/00_partials/", "03_HTML/03_Cells/icons"];
+      let htmlPartials = ["03_HTML/00_Partials/", "03_HTML/03_Cells/icons"];
       pgSects.forEach((s) => {
         htmlPartials.push(`03_HTML/${s}/`);
       });

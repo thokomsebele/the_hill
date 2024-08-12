@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function startAutoRotate() {
-    intervalId = setInterval(() => {
-      goToFace(currentIndex < totalFaces - 1 ? currentIndex + 1 : 0);
-    }, 3000); // Change interval duration as needed (3000ms = 3 seconds)
+    // intervalId = setInterval(() => {
+    //   goToFace(currentIndex < totalFaces - 1 ? currentIndex + 1 : 0);
+    // }, 3000); // Change interval duration as needed (3000ms = 3 seconds)
   }
 
   function stopAutoRotate() {
