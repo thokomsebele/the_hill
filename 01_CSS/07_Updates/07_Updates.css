@@ -1,0 +1,71 @@
+#updatesSection #updatesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#updatesSection .updatesContainer_Col {
+  width: 48%;
+  overflow: hidden;
+}
+
+#updatesSection .updatesContainer_Col .updateDiv {
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+#updatesSection
+  .updatesContainer_Col
+  .updateDiv
+  .updateDivSect.updateDivSect_Img {
+  width: 100%;
+}
+#updatesSection
+  .updatesContainer_Col
+  .updateDiv
+  .updateDivSect.updateDivSect_Img
+  img {
+  width: 100%;
+}
+
+#updatesSection .updatesContainer_Col .updateDiv h4 {
+  margin: 10px 0;
+}
+
+#updatesSection .updatesContainer_Col .updateDiv h5 {
+  margin: 5px 0;
+}
+
+#updatesSection .updatesContainer_Col.updatesContainer_Col_Min .updateDiv {
+  height: 200px;
+}
+#updatesSection
+  .updatesContainer_Col.updatesContainer_Col_Min
+  .updateDiv
+  .updateDivSect {
+  height: 100%;
+  float: left;
+}
+#updatesSection
+  .updatesContainer_Col.updatesContainer_Col_Min
+  .updateDiv
+  .updateDivSect.updateDivSect_Img {
+  width: 30%;
+}
+#updatesSection
+  .updatesContainer_Col.updatesContainer_Col_Min
+  .updateDiv
+  .updateDivSect.updateDivSect_Text {
+  width: 70%;
+  padding-left: 10px;
+}
+
+#updatesSection
+  .updatesContainer_Col.updatesContainer_Col_Min
+  .updateDiv
+  .updateDivSect.updateDivSect_Img
+  img {
+  width: 100%;
+  height: unset;
+}

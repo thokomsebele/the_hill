@@ -47,6 +47,14 @@ let sectionsArray = [
     cssFilePath: "../01_CSS/06_Staff",
     cssFilesArray: ["06_Staff"],
   },
+  {
+    sectionTitle: "Updates",
+    sectionSrcPathArray: ["03_HTML/07_Updates/"],
+    sectionIncludedTemplateString: "07_Updates.njk",
+    sectionOutputFileName: "07_Updates.html",
+    cssFilePath: "../01_CSS/07_Updates",
+    cssFilesArray: ["07_Updates"],
+  },
 ];
 
 module.exports = sectionsArray;
