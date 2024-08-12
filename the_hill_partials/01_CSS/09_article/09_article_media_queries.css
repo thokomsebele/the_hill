@@ -1,9 +1,0 @@
-@media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
-  body .articleSection #otherArticles,
-  body .articleSection article {
-    width: 100%;
-  }
-  body .articleSection article {
-    padding: 0;
-  }
-}
