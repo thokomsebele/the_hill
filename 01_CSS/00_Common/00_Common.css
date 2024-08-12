@@ -1,17 +1,20 @@
 @font-face {
   font-family: "MSE_OpenSans_Regular";
-  src: url("OpenSans-Regular.ttf") format("truetype");
+  src: url("./OpenSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "MSE_Athelas_Regular";
-  src: url("Athelas-Regular.ttf") format("truetype");
+  src: url("./Athelas-Regular.ttf") format("truetype");
 }
 
 * {
   color: #707070;
   box-sizing: border-box;
   font-family: "MSE_OpenSans_Regular";
+  /* blue: #0a173b; */
+  /* beige(pink): #fff0cf */
+  /* beige(red): #ed2224 */
 }
 
 h1,

@@ -1,25 +1,30 @@
 #footerSection {
-  padding-top: 150px;
-  padding-bottom: 50px;
-  background-color: #0a173b;
+  padding-top: 175px;
+  padding-bottom: 75px;
   position: relative;
   margin-bottom: 0 !important;
+  background-color: #fff0cf;
 }
 
 #footerSection #footerSection_logoDiv {
-  width: 100%;
-  position: absolute;
+  top: 0;
   left: 0;
-  top: -60px;
   display: flex;
+  width: 100%;
+  height: 150px;
+  position: absolute;
   justify-content: center;
 }
 
 #footerSection #footerSection_logoDiv #footerSection_logo {
-  width: 300px;
+  height: 100%;
 }
 
 #footerSection #footerContainer {
   display: flex;
   justify-content: space-between;
+}
+
+#footerSection ul li {
+  color: #0a173b;
 }
