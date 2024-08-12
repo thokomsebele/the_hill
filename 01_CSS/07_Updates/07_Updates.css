@@ -1,15 +1,20 @@
+#updatesSection {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 #updatesSection #updatesContainer {
   width: 100%;
   display: flex;
   justify-content: space-between;
 }
 
-#updatesSection .updatesContainer_Col {
+#updatesSection #updatesContainer .updatesContainer_Col {
   width: 48%;
   overflow: hidden;
 }
 
-#updatesSection .updatesContainer_Col .updateDiv {
+#updatesSection #updatesContainer .updatesContainer_Col .updateDiv {
   width: 100%;
   float: left;
   overflow: hidden;
