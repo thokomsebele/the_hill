@@ -23,18 +23,6 @@ gulp.task("sections", async function () {
       s.jsFolder = "../02_JS";
       s.resourcesFolder = "../04_Resources";
       s.pageLinks = pageLinks;
-      if (
-        typeof s.heroButtonsArray == "object" &&
-        Array.isArray(s.heroButtonsArray)
-      ) {
-        s.heroButtonsArray.forEach((btn) => {
-          if (typeof btn.buttonHref == "string") {
-            let strA = "RESOURCESFOLDER";
-            let strB = s.resourcesFolder;
-            btn.buttonHref = btn.buttonHref.replace(strA, strB);
-          }
-        });
-      }
       await new Promise((resolveB) => {
         gulp
           .src("98_Sections/00_sectionTemplate.njk")

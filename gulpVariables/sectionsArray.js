@@ -17,7 +17,7 @@ let sectionsArray = [
   },
   {
     sectionTitle: "Cells",
-    sectionSrcPathArray: ["03_HTML/03_Cells/"],
+    sectionSrcPathArray: ["03_HTML/03_Cells/", "03_HTML/03_Cells/icons"],
     sectionIncludedTemplateString: "03_Cells.njk",
     sectionOutputFileName: "03_Cells.html",
     cssFilePath: "../01_CSS/03_Cells",
