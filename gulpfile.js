@@ -65,6 +65,28 @@ gulp.task("pages", async function () {
           .pipe(gulp.dest("00_Pages/css/"))
           .on("end", resolveC);
       });
+      let fontPartials = [
+        "01_CSS/00_Common/Athelas-Bold.ttf",
+        "01_CSS/00_Common/Athelas-BoldItalic.ttf",
+        "01_CSS/00_Common/Athelas-Italic.ttf",
+        "01_CSS/00_Common/Athelas-Regular.ttf",
+        "01_CSS/00_Common/OpenSans-Bold.ttf",
+        "01_CSS/00_Common/OpenSans-BoldItalic.ttf",
+        "01_CSS/00_Common/OpenSans-ExtraBold.ttf",
+        "01_CSS/00_Common/OpenSans-ExtraBoldItalic.ttf",
+        "01_CSS/00_Common/OpenSans-Italic.ttf",
+        "01_CSS/00_Common/OpenSans-Light.ttf",
+        "01_CSS/00_Common/OpenSans-LightItalic.ttf",
+        "01_CSS/00_Common/OpenSans-Regular.ttf",
+        "01_CSS/00_Common/OpenSans-Semibold.ttf",
+        "01_CSS/00_Common/OpenSans-SemiboldItalic.ttf",
+      ];
+      await new Promise((resolveD) => {
+        gulp
+          .src(fontPartials)
+          .pipe(gulp.dest("00_Pages/css/"))
+          .on("end", resolveD);
+      });
     }
     resolveA();
   });
