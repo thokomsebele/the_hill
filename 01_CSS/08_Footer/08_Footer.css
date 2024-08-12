@@ -1,0 +1,25 @@
+#footerSection {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background-color: red;
+  position: relative;
+  margin-bottom: 0 !important;
+}
+
+#footerSection #footerSection_logoDiv {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -60px;
+  display: flex;
+  justify-content: center;
+}
+
+#footerSection #footerSection_logoDiv #footerSection_logo {
+  width: 300px;
+}
+
+#footerSection #footerContainer {
+  display: flex;
+  justify-content: space-between;
+}

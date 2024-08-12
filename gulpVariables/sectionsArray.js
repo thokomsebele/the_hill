@@ -1,6 +1,6 @@
-let sectionsArray = [
+module.exports = [
   {
-    sectionTitle: "Navigation Bar",
+    sectionTitle: "Navigation section",
     sectionSrcPathArray: ["03_HTML/01_Navbar/"],
     sectionIncludedTemplateString: "01_Navbar.njk",
     sectionOutputFileName: "01_Navbar.html",
@@ -8,7 +8,7 @@ let sectionsArray = [
     cssFilesArray: ["01_Navbar"],
   },
   {
-    sectionTitle: "Carousel",
+    sectionTitle: "Carousel section",
     sectionSrcPathArray: ["03_HTML/02_Carousel/"],
     sectionIncludedTemplateString: "02_Carousel.njk",
     sectionOutputFileName: "02_Carousel.html",
@@ -16,7 +16,7 @@ let sectionsArray = [
     cssFilesArray: ["02_Carousel"],
   },
   {
-    sectionTitle: "Cells",
+    sectionTitle: "Cells section",
     sectionSrcPathArray: ["03_HTML/03_Cells/", "03_HTML/03_Cells/icons"],
     sectionIncludedTemplateString: "03_Cells.njk",
     sectionOutputFileName: "03_Cells.html",
@@ -24,7 +24,7 @@ let sectionsArray = [
     cssFilesArray: ["03_Cells"],
   },
   {
-    sectionTitle: "About",
+    sectionTitle: "About section",
     sectionSrcPathArray: ["03_HTML/04_About/"],
     sectionIncludedTemplateString: "04_About.njk",
     sectionOutputFileName: "04_About.html",
@@ -32,7 +32,7 @@ let sectionsArray = [
     cssFilesArray: ["04_About"],
   },
   {
-    sectionTitle: "Testimonials",
+    sectionTitle: "Testimonials section",
     sectionSrcPathArray: ["03_HTML/05_Testimonials/"],
     sectionIncludedTemplateString: "05_Testimonials.njk",
     sectionOutputFileName: "05_Testimonials.html",
@@ -40,7 +40,7 @@ let sectionsArray = [
     cssFilesArray: ["05_Testimonials"],
   },
   {
-    sectionTitle: "Staff",
+    sectionTitle: "Staff section",
     sectionSrcPathArray: ["03_HTML/06_Staff/"],
     sectionIncludedTemplateString: "06_Staff.njk",
     sectionOutputFileName: "06_Staff.html",
@@ -48,13 +48,19 @@ let sectionsArray = [
     cssFilesArray: ["06_Staff"],
   },
   {
-    sectionTitle: "Updates",
+    sectionTitle: "Updates section",
     sectionSrcPathArray: ["03_HTML/07_Updates/"],
     sectionIncludedTemplateString: "07_Updates.njk",
     sectionOutputFileName: "07_Updates.html",
     cssFilePath: "../01_CSS/07_Updates",
     cssFilesArray: ["07_Updates"],
   },
+  {
+    sectionTitle: "Footer section",
+    sectionSrcPathArray: ["03_HTML/08_Footer/"],
+    sectionIncludedTemplateString: "08_Footer.njk",
+    sectionOutputFileName: "08_Footer.html",
+    cssFilePath: "../01_CSS/08_Footer",
+    cssFilesArray: ["08_Footer"],
+  },
 ];
-
-module.exports = sectionsArray;

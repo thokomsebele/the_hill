@@ -11,6 +11,8 @@ module.exports = [
       "04_About",
       "05_Testimonials",
       "06_Staff",
+      "07_Updates",
+      "08_Footer",
     ],
   },
 ];
