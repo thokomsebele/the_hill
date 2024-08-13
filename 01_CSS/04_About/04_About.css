@@ -1,17 +1,15 @@
 #aboutSection {
-  height: 400px;
   display: flex;
-  overflow: hidden;
 }
 
 #aboutSection #aboutSection_videoDiv {
-  height: 100%;
+  width: 60%;
+  height: 400px;
   float: left;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  width: 60%;
 }
 #aboutSection #aboutSection_videoDiv iframe {
   width: 100%;
@@ -24,10 +22,10 @@
   padding: 10px;
 }
 #aboutSection #aboutSection_textDiv h4 {
-  margin-bottom: 10px;
   font-size: 21px;
+  margin-bottom: 10px;
 }
 #aboutSection #aboutSection_textDiv p {
-  margin-bottom: 6px;
   font-size: 17px;
+  margin-bottom: 6px;
 }
