@@ -1,4 +1,16 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  #carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv {
+    height: 400px;
+  }
+  #carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv img {
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%; /* Full height on mobile */
+    width: auto; /* Maintain aspect ratio and avoid stretching */
+    object-fit: cover; /* Ensure the image covers the container */
+    transform: translateX(0); /* Reset any transformations */
+  }
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 249px) {

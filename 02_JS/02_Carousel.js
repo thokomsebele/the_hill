@@ -29,12 +29,8 @@ document.addEventListener("DOMContentLoaded", function () {
       rect.top >= 0 &&
       rect.bottom <=
         (window.innerHeight || document.documentElement.clientHeight);
-
-    if (isVisible) {
-      startAutoRotate();
-    } else {
-      stopAutoRotate();
-    }
+    if (isVisible) startAutoRotate();
+    else stopAutoRotate();
   }
 
   // Initial check when the page loads
@@ -47,20 +43,31 @@ document.addEventListener("DOMContentLoaded", function () {
   document
     .getElementById("arrowDivLeft")
     .addEventListener("click", function () {
-      if (currentIndex > 0) {
-        goToFace(currentIndex - 1);
-      } else {
-        goToFace(totalFaces - 1);
-      }
+      if (currentIndex > 0) goToFace(currentIndex - 1);
+      else goToFace(totalFaces - 1);
     });
 
   document
     .getElementById("arrowDivRight")
     .addEventListener("click", function () {
-      if (currentIndex < totalFaces - 1) {
-        goToFace(currentIndex + 1);
-      } else {
-        goToFace(0);
-      }
+      if (currentIndex < totalFaces - 1) goToFace(currentIndex + 1);
+      else goToFace(0);
     });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth <= 767) {
+    const container = document.querySelector(".carouselFaceImageDiv");
+    const img = container.querySelector("img");
+    let scrollPosition = 0;
+    const scrollStep = 2; // Adjust scroll speed
+    const maxScroll = img.offsetWidth - window.innerWidth;
+    scrollImage();
+    function scrollImage() {
+      scrollPosition += scrollStep;
+      if (scrollPosition > maxScroll) scrollPosition = 0;
+      container.scrollLeft = scrollPosition;
+      requestAnimationFrame(scrollImage);
+    }
+  }
 });

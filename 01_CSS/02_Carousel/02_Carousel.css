@@ -17,8 +17,17 @@
   justify-content: center;
 }
 
-#carouselSection #carouselContainer .carouselFace img {
+#carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv {
   width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+#carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv img {
+  display: block;
+  width: 100%;
+  height: auto; /* For desktop view */
 }
 
 #carouselSection #carouselContainer .carouselFace p {
