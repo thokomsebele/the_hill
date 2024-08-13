@@ -4,7 +4,7 @@
   position: relative;
   margin-top: 100px;
   margin-bottom: 0 !important;
-  background-color: #050706;
+  background-color: #fff0cf;
 }
 
 #footerSection .footerSection_row {
@@ -16,7 +16,7 @@
 }
 
 #footerSection #footerSection_logoDiv {
-  top: -70px;
+  top: -110px;
   height: 200px;
 }
 
@@ -31,7 +31,6 @@
 }
 
 #footerSection ul li {
-  color: #ffffff;
   font-size: 18px;
   line-height: 24px;
   cursor: pointer;
@@ -43,13 +42,10 @@
   height: 100%;
 }
 #footerSection .footerDiv_02 {
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 #footerSection #footerSection_bottomDiv {
   bottom: 0;
   height: 50px;
-}
-#footerSection #footerSection_bottomDiv h5 {
-  color: #ffffff;
 }
