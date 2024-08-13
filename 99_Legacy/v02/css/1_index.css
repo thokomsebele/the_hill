@@ -1,1 +1,388 @@
-*{box-sizing:border-box;font-family:"Segoe UI";color:#707070}h1,h2,h3,h4,h5,p{margin:0}ul{padding:0;margin:0}li{list-style:none}body{background-color:#fff;margin:0}.section{width:100%;position:relative;padding-left:100px;padding-right:100px;float:left;margin:25px 0}.section .sectionTitle{font-size:23px;line-height:24px;margin-top:10px;margin-bottom:30px}.backgroundImg{position:absolute;z-index:-10;width:100%;left:0;top:0}.ctaBtns{float:left;margin:0}.ctaBtns .ctaBtn{height:34px;margin:13px 0;padding:0;float:left;border-radius:10px;cursor:pointer;background-color:#39b54a;color:#fff;border:none}.ctaBtns .ctaBtn:first-of-type{margin-right:10px}.ctaBtns .ctaBtn svg{padding:8px;float:left;height:100%}.ctaBtns .ctaBtn span{margin:0 15px 0 5px;display:inline-block;line-height:34px;font-size:12px;font-weight:600;color:#fff}body .ctaBtns .ctaBtn2{border:1px solid #39b54a;background-color:#fff}body .ctaBtns .ctaBtn2 span{color:#39b54a}body .ctaBtn svg{fill:#fff}body .ctaBtn.ctaBtn2 svg{fill:#39b54a}a:active,a:hover,a:link,a:visited{text-decoration:none}.mseLink{color:#0071bc;font-weight:500;text-decoration:underline}#navBarSection{background:#fff;position:fixed;top:0;left:0;padding:0;height:80px;display:flex;justify-content:space-between;z-index:1000;margin-top:0}#navBarSection #navBar_links,#navBarSection .navBar_logo{height:100%;float:left}#navBarSection #navBar_links,#navBarSection #navBar_links .navPageInfo .navPageInfoInner{width:850px}#navBarSection #navBar_links .navParentPage{width:16.667%;float:left}#navBarSection #navBar_links .navParentPage_focused{border-bottom:2px solid #ffcb05}#navBarSection #navBar_links .navLink{display:block;width:100%;height:80px;line-height:80px;text-align:center}#navBarSection #navBar_links .navParentPage_focused .navLink{color:#000;font-weight:500}#navBarSection #navBar_links .navLink:hover,#navBarSection #navBar_links .navPageInfo .navPageInfo_list li:hover,#navBarSection #navBar_links .navParentPage:hover .navLink{color:#000;font-weight:500;background:#ffcb05}#navBarSection #navBar_links .navPageInfo{left:0;top:80px;position:fixed;width:100%;float:left;background:#f5f4ff;padding-top:25px;padding-bottom:10px;display:none}#navBarSection #navBar_links .navParentPage:hover .navPageInfo{display:block}#navBarSection #navBar_links .navPageInfo .navPageInfoInner{margin:0 auto;display:flex;justify-content:space-between}#navBarSection #navBar_links .navPageInfo .navPageInfo_intro{float:left;width:400px;height:100%}#navBarSection #navBar_links .navPageInfo .navPageInfo_intro h3{margin-bottom:10px}#navBarSection #navBar_links .navPageInfo .navPageInfo_list{float:left;margin-left:50px}#navBarSection #navBar_links .navPageInfo .navPageInfo_list li{height:35px;line-height:35px;padding:0 10px;text-align:right;min-width:100px}#carouselSection{padding:0;margin-top:100px}#carouselSection #carouselContainer{width:100%;display:flex;position:relative;transition:transform 1s ease}#carouselSection #carouselContainer .carouselFace{flex:0 0 100%;display:flex;justify-content:center}#carouselSection #carouselContainer .carouselFace img{width:100%}#carouselSection #carouselContainer .carouselFace p{position:absolute;top:50%;text-align:center;background-color:rgba(255,255,255,.2);width:50%;padding:10px;color:#000;font-weight:500;font-size:18px}#carouselSection #left,#carouselSection #right{position:absolute;top:50%;transform:translateY(-50%);background-color:#007bff;color:#fff;border:none;padding:10px 20px;cursor:pointer}#carouselSection #left{left:10px}#carouselSection #right{right:10px}#cellsSection{margin-top:40px}#cellsSection .cellDiv{width:33%;height:100px;float:left;margin-bottom:15px}#cellsSection .cellDiv .cellDiv_svgContainer,#cellsSection .cellDiv .cellDiv_textContainer{height:100%;float:left;display:flex;align-items:center;justify-content:center}#cellsSection .cellDiv .cellDiv_svgContainer{width:30%}#cellsSection .cellDiv .cellDiv_textContainer{width:70%}#cellsSection .cellDiv .cellDiv_svgContainer svg{width:75px;float:left;display:block}#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4,#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p{width:100%;float:left}#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p{font-size:13px;line-height:14px}#cellsSection .cellDiv.cellDiv_01,#cellsSection .cellDiv.cellDiv_02,#cellsSection .cellDiv.cellDiv_04,#cellsSection .cellDiv.cellDiv_05{border-right:2px solid #ffcb05}#aboutSection{height:400px;display:flex;overflow:hidden}#aboutSection #aboutSection_videoDiv{height:100%;float:left;display:flex;align-items:center;justify-content:center;padding:10px;width:60%}#aboutSection #aboutSection_videoDiv iframe{width:100%;height:100%}#aboutSection #aboutSection_textDiv{width:40%;height:100%;padding:10px}#aboutSection #aboutSection_textDiv h4{margin-bottom:10px;font-size:21px}#aboutSection #aboutSection_textDiv p{margin-bottom:6px;font-size:17px}#testimonialSection{padding-bottom:20px}#testimonialSection #testimonialDivContainer{display:flex;justify-content:space-between;float:left;width:100%}#testimonialSection .testimonialDiv{height:100%;width:30%}#testimonialSection .testimonialDiv img{width:100%;float:left;margin-bottom:15px}#testimonialSection .testimonialDiv h3{margin-bottom:2px;font-size:20px;line-height:20px}#testimonialSection .testimonialDiv h4{margin-bottom:7px;font-size:15px;line-height:15px}#testimonialSection .testimonialDiv p{margin-bottom:5px}#staffSection{padding-bottom:20px}#staffSection #staffDivContainer{display:flex;justify-content:space-between;float:left;width:100%}#staffSection .staffDiv{height:100%;width:30%;background:#f5f4ff;padding:15px}#staffSection .staffDiv p{margin-bottom:5px}#staffSection .staffDiv h4{margin-bottom:7px;font-size:15px;line-height:15px}#staffSection .staffDiv hr{margin-top:40px;margin-bottom:15px}#staffSection .staffDiv .staffDiv_lastRow{float:left;height:110px}#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol,#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol{height:100%;float:left;display:flex;align-items:center;justify-content:center}#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol{width:25%}#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol{width:75%}#staffSection .staffDiv .staffDiv_lastRow_textCol_inner{width:100%;padding:0 10px}#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol img{width:100%;float:left}
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+  color: #707070;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  background-color: #fff;
+  margin: 0;
+}
+.section {
+  width: 100%;
+  position: relative;
+  padding-left: 100px;
+  padding-right: 100px;
+  float: left;
+  margin: 25px 0;
+}
+.section .sectionTitle {
+  font-size: 23px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.backgroundImg {
+  position: absolute;
+  z-index: -10;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.ctaBtns {
+  float: left;
+  margin: 0;
+}
+.ctaBtns .ctaBtn {
+  height: 34px;
+  margin: 13px 0;
+  padding: 0;
+  float: left;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #39b54a;
+  color: #fff;
+  border: none;
+}
+.ctaBtns .ctaBtn:first-of-type {
+  margin-right: 10px;
+}
+.ctaBtns .ctaBtn svg {
+  padding: 8px;
+  float: left;
+  height: 100%;
+}
+.ctaBtns .ctaBtn span {
+  margin: 0 15px 0 5px;
+  display: inline-block;
+  line-height: 34px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+body .ctaBtns .ctaBtn2 {
+  border: 1px solid #39b54a;
+  background-color: #fff;
+}
+body .ctaBtns .ctaBtn2 span {
+  color: #39b54a;
+}
+body .ctaBtn svg {
+  fill: #fff;
+}
+body .ctaBtn.ctaBtn2 svg {
+  fill: #39b54a;
+}
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+.mseLink {
+  color: #0071bc;
+  font-weight: 500;
+  text-decoration: underline;
+}
+#navBarSection {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+  margin-top: 0;
+}
+#navBarSection #navBar_links,
+#navBarSection .navBar_logo {
+  height: 100%;
+  float: left;
+}
+#navBarSection #navBar_links,
+#navBarSection #navBar_links .navPageInfo .navPageInfoInner {
+  width: 850px;
+}
+#navBarSection #navBar_links .navParentPage {
+  width: 16.667%;
+  float: left;
+}
+#navBarSection #navBar_links .navParentPage_focused {
+  border-bottom: 2px solid #ffcb05;
+}
+#navBarSection #navBar_links .navLink {
+  display: block;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+#navBarSection #navBar_links .navParentPage_focused .navLink {
+  color: #000;
+  font-weight: 500;
+}
+#navBarSection #navBar_links .navLink:hover,
+#navBarSection #navBar_links .navPageInfo .navPageInfo_list li:hover,
+#navBarSection #navBar_links .navParentPage:hover .navLink {
+  color: #000;
+  font-weight: 500;
+  background: #ffcb05;
+}
+#navBarSection #navBar_links .navPageInfo {
+  left: 0;
+  top: 80px;
+  position: fixed;
+  width: 100%;
+  float: left;
+  background: #f5f4ff;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  display: none;
+}
+#navBarSection #navBar_links .navParentPage:hover .navPageInfo {
+  display: block;
+}
+#navBarSection #navBar_links .navPageInfo .navPageInfoInner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#navBarSection #navBar_links .navPageInfo .navPageInfo_intro {
+  float: left;
+  width: 400px;
+  height: 100%;
+}
+#navBarSection #navBar_links .navPageInfo .navPageInfo_intro h3 {
+  margin-bottom: 10px;
+}
+#navBarSection #navBar_links .navPageInfo .navPageInfo_list {
+  float: left;
+  margin-left: 50px;
+}
+#navBarSection #navBar_links .navPageInfo .navPageInfo_list li {
+  height: 35px;
+  line-height: 35px;
+  padding: 0 10px;
+  text-align: right;
+  min-width: 100px;
+}
+#carouselSection {
+  padding: 0;
+  margin-top: 100px;
+}
+#carouselSection #carouselContainer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  transition: transform 1s ease;
+}
+#carouselSection #carouselContainer .carouselFace {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+}
+#carouselSection #carouselContainer .carouselFace img {
+  width: 100%;
+}
+#carouselSection #carouselContainer .carouselFace p {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 50%;
+  padding: 10px;
+  color: #000;
+  font-weight: 500;
+  font-size: 18px;
+}
+#carouselSection #arrowDivLeft,
+#carouselSection #arrowDivRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#carouselSection #arrowDivLeft {
+  left: 10px;
+}
+#carouselSection #arrowDivRight {
+  right: 10px;
+}
+#cellsSection {
+  margin-top: 40px;
+}
+#cellsSection .cellDiv {
+  width: 33%;
+  height: 100px;
+  float: left;
+  margin-bottom: 15px;
+}
+#cellsSection .cellDiv .cellDiv_svgContainer,
+#cellsSection .cellDiv .cellDiv_textContainer {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#cellsSection .cellDiv .cellDiv_svgContainer {
+  width: 30%;
+}
+#cellsSection .cellDiv .cellDiv_textContainer {
+  width: 70%;
+}
+#cellsSection .cellDiv .cellDiv_svgContainer svg {
+  width: 75px;
+  float: left;
+  display: block;
+}
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4,
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
+  width: 100%;
+  float: left;
+}
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
+  font-size: 13px;
+  line-height: 14px;
+}
+#cellsSection .cellDiv.cellDiv_01,
+#cellsSection .cellDiv.cellDiv_02,
+#cellsSection .cellDiv.cellDiv_04,
+#cellsSection .cellDiv.cellDiv_05 {
+  border-right: 2px solid #ffcb05;
+}
+#aboutSection {
+  height: 400px;
+  display: flex;
+  overflow: hidden;
+}
+#aboutSection #aboutSection_videoDiv {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 60%;
+}
+#aboutSection #aboutSection_videoDiv iframe {
+  width: 100%;
+  height: 100%;
+}
+#aboutSection #aboutSection_textDiv {
+  width: 40%;
+  height: 100%;
+  padding: 10px;
+}
+#aboutSection #aboutSection_textDiv h4 {
+  margin-bottom: 10px;
+  font-size: 21px;
+}
+#aboutSection #aboutSection_textDiv p {
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+#testimonialSection {
+  padding-bottom: 20px;
+}
+#testimonialSection #testimonialDivContainer {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 100%;
+}
+#testimonialSection .testimonialDiv {
+  height: 100%;
+  width: 30%;
+}
+#testimonialSection .testimonialDiv img {
+  width: 100%;
+  float: left;
+  margin-bottom: 15px;
+}
+#testimonialSection .testimonialDiv h3 {
+  margin-bottom: 2px;
+  font-size: 20px;
+  line-height: 20px;
+}
+#testimonialSection .testimonialDiv h4 {
+  margin-bottom: 7px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#testimonialSection .testimonialDiv p {
+  margin-bottom: 5px;
+}
+#staffSection {
+  padding-bottom: 20px;
+}
+#staffSection #staffDivContainer {
+  display: flex;
+  justify-content: space-between;
+  float: left;
+  width: 100%;
+}
+#staffSection .staffDiv {
+  height: 100%;
+  width: 30%;
+  background: #f5f4ff;
+  padding: 15px;
+}
+#staffSection .staffDiv p {
+  margin-bottom: 5px;
+}
+#staffSection .staffDiv h4 {
+  margin-bottom: 7px;
+  font-size: 15px;
+  line-height: 15px;
+}
+#staffSection .staffDiv hr {
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+#staffSection .staffDiv .staffDiv_lastRow {
+  float: left;
+  height: 110px;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol,
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol {
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol {
+  width: 25%;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_textCol {
+  width: 75%;
+}
+#staffSection .staffDiv .staffDiv_lastRow_textCol_inner {
+  width: 100%;
+  padding: 0 10px;
+}
+#staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol img {
+  width: 100%;
+  float: left;
+}

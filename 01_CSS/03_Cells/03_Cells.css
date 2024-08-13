@@ -18,16 +18,18 @@
   justify-content: center;
 }
 #cellsSection .cellDiv .cellDiv_svgContainer {
-  width: 30%;
+  width: 25%;
 }
 #cellsSection .cellDiv .cellDiv_textContainer {
-  width: 70%;
+  width: 75%;
 }
 
 #cellsSection .cellDiv .cellDiv_svgContainer svg {
-  width: 75px;
+  width: 80px;
   float: left;
   display: block;
+  fill: #0a173b;
+  padding-right: 10px;
 }
 
 #cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4,
@@ -36,14 +38,19 @@
   float: left;
 }
 
+#cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4 {
+  color: #ed2224;
+}
+
 #cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
   font-size: 13px;
   line-height: 14px;
+  color: #0a173b;
 }
 
 #cellsSection .cellDiv.cellDiv_01,
 #cellsSection .cellDiv.cellDiv_02,
 #cellsSection .cellDiv.cellDiv_04,
 #cellsSection .cellDiv.cellDiv_05 {
-  border-right: 2px solid #ffcb05;
+  border-right: 2px solid #fff0cf;
 }

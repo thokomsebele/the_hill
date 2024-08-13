@@ -23,6 +23,7 @@ h3,
 h4,
 h5 {
   margin: 0;
+  color: #0a173b;
   font-family: "MSE_Athelas_Bold";
 }
 
@@ -30,6 +31,7 @@ p,
 a,
 li {
   margin: 0;
+  color: #0a173b;
   font-family: "MSE_OpenSans_Regular";
 }
 

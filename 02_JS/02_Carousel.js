@@ -44,19 +44,23 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", checkCarouselInView);
 
   // Event listeners for manual navigation
-  document.getElementById("left").addEventListener("click", function () {
-    if (currentIndex > 0) {
-      goToFace(currentIndex - 1);
-    } else {
-      goToFace(totalFaces - 1);
-    }
-  });
+  document
+    .getElementById("arrowDivLeft")
+    .addEventListener("click", function () {
+      if (currentIndex > 0) {
+        goToFace(currentIndex - 1);
+      } else {
+        goToFace(totalFaces - 1);
+      }
+    });
 
-  document.getElementById("right").addEventListener("click", function () {
-    if (currentIndex < totalFaces - 1) {
-      goToFace(currentIndex + 1);
-    } else {
-      goToFace(0);
-    }
-  });
+  document
+    .getElementById("arrowDivRight")
+    .addEventListener("click", function () {
+      if (currentIndex < totalFaces - 1) {
+        goToFace(currentIndex + 1);
+      } else {
+        goToFace(0);
+      }
+    });
 });

@@ -27,7 +27,7 @@
   float: left;
 }
 #navBarSection #navBar_links .navParentPage_focused {
-  border-bottom: 2px solid #fff0cf;
+  border-bottom: 4px solid #ed2224;
 }
 
 #navBarSection #navBar_links .navLink {
