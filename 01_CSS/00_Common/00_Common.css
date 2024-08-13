@@ -4,26 +4,33 @@
 }
 
 @font-face {
-  font-family: "MSE_Athelas_Regular";
-  src: url("./Athelas-Regular.ttf") format("truetype");
+  font-family: "MSE_Athelas_Bold";
+  src: url("./Athelas-Bold.ttf") format("truetype");
 }
 
 * {
-  color: #707070;
+  color: black;
   box-sizing: border-box;
-  font-family: "MSE_OpenSans_Regular";
   /* blue: #0a173b; */
   /* beige(pink): #fff0cf */
   /* beige(red): #ed2224 */
+  /* brown/black: #050706 */
 }
 
 h1,
 h2,
 h3,
 h4,
-h5,
-p {
+h5 {
   margin: 0;
+  font-family: "MSE_Athelas_Bold";
+}
+
+p,
+a,
+li {
+  margin: 0;
+  font-family: "MSE_OpenSans_Regular";
 }
 
 ul {
@@ -53,6 +60,7 @@ body {
   line-height: 24px;
   margin-top: 10px;
   margin-bottom: 30px;
+  font-family: "MSE_Athelas_Bold";
 }
 
 .backgroundImg {

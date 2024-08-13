@@ -1,23 +1,27 @@
 #footerSection {
-  padding-top: 175px;
+  padding-top: 25px;
   padding-bottom: 75px;
   position: relative;
   margin-bottom: 0 !important;
-  background-color: #fff0cf;
+  background-color: #050706;
 }
 
-#footerSection #footerSection_logoDiv {
-  top: 0;
+#footerSection .footerSection_row {
   left: 0;
   display: flex;
   width: 100%;
-  height: 150px;
   position: absolute;
   justify-content: center;
 }
 
+#footerSection #footerSection_logoDiv {
+  top: -70px;
+  height: 200px;
+}
+
 #footerSection #footerSection_logoDiv #footerSection_logo {
   height: 100%;
+  border-radius: 75px;
 }
 
 #footerSection #footerContainer {
@@ -26,5 +30,25 @@
 }
 
 #footerSection ul li {
-  color: #0a173b;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+}
+
+#footerSection .footerDiv {
+  padding-top: 20px;
+  height: 100%;
+}
+#footerSection .footerDiv_02 {
+  padding-top: 120px;
+}
+
+#footerSection #footerSection_bottomDiv {
+  bottom: 0;
+  height: 50px;
+}
+#footerSection #footerSection_bottomDiv h5 {
+  color: #ffffff;
 }
