@@ -4,9 +4,10 @@
 
 #cellsSection .cellDiv {
   width: 33%;
-  height: 100px;
   float: left;
+  min-height: 150px;
   margin-bottom: 15px;
+  padding: 0 15px;
 }
 
 #cellsSection .cellDiv .cellDiv_svgContainer,
@@ -53,5 +54,5 @@
 #cellsSection .cellDiv.cellDiv_02,
 #cellsSection .cellDiv.cellDiv_04,
 #cellsSection .cellDiv.cellDiv_05 {
-  border-right: 2px solid #fff0cf;
+  border-right: 2px solid #ed2224;
 }

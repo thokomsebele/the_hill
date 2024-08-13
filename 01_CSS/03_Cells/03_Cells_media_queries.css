@@ -1,4 +1,14 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  #cellsSection .cellDiv {
+    width: 100%;
+    min-height: unset;
+  }
+  #cellsSection .cellDiv.cellDiv_01,
+  #cellsSection .cellDiv.cellDiv_02,
+  #cellsSection .cellDiv.cellDiv_04,
+  #cellsSection .cellDiv.cellDiv_05 {
+    border-right: none;
+  }
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 249px) {
@@ -11,4 +21,16 @@
 }
 
 @media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
+  html body #cellsSection .cellDiv {
+    width: 50%;
+    min-height: 125px;
+  }
+  html body #cellsSection .cellDiv.cellDiv_01,
+  html body #cellsSection .cellDiv.cellDiv_03,
+  html body #cellsSection .cellDiv.cellDiv_05 {
+    border-right: 2px solid #ed2224;
+  }
+  html body #cellsSection .cellDiv .cellDiv_svgContainer svg {
+    width: 75px;
+  }
 }

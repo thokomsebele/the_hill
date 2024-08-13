@@ -1,3 +1,8 @@
+/* blue: #0a173b; */
+/* beige(pink): #fff0cf */
+/* beige(red): #ed2224 */
+/* brown/black: #050706 */
+
 @font-face {
   font-family: "MSE_OpenSans_Regular";
   src: url("./OpenSans-Regular.ttf") format("truetype");
@@ -9,12 +14,8 @@
 }
 
 * {
-  color: black;
+  color: #0a173b;
   box-sizing: border-box;
-  /* blue: #0a173b; */
-  /* beige(pink): #fff0cf */
-  /* beige(red): #ed2224 */
-  /* brown/black: #050706 */
 }
 
 h1,
