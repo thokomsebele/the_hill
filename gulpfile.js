@@ -53,9 +53,13 @@ gulp.task("pages", async function () {
           .pipe(gulp.dest("00_Pages/"))
           .on("end", resolveB);
       });
-      let cssPartials = ["01_CSS/00_Common/00_Common.css"];
+      let cssPartials = [
+        "01_CSS/00_Common/00_Common.css",
+        "01_CSS/00_Common/00_Common_media_queries.css",
+      ];
       pgSects.forEach((s) => {
         cssPartials.push(`01_CSS/${s}/${s}.css`);
+        cssPartials.push(`01_CSS/${s}/${s}_media_queries.css`);
       });
       await new Promise((resolveC) => {
         gulp

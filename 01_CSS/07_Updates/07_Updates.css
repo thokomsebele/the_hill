@@ -35,11 +35,10 @@
 }
 
 #updatesSection .updatesContainer_Col .updateDiv h4 {
-  margin: 10px 0;
+  margin-bottom: 0;
 }
-
 #updatesSection .updatesContainer_Col .updateDiv h5 {
-  margin: 5px 0;
+  margin-bottom: 7px;
 }
 
 #updatesSection .updatesContainer_Col.updatesContainer_Col_Min .updateDiv {

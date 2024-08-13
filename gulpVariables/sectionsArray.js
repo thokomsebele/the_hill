@@ -5,7 +5,7 @@ module.exports = [
     sectionIncludedTemplateString: "01_Navbar.njk",
     sectionOutputFileName: "01_Navbar.html",
     cssFilePath: "../01_CSS/01_Navbar",
-    cssFilesArray: ["01_Navbar"],
+    cssFilesArray: ["01_Navbar", "01_Navbar_media_queries"],
   },
   {
     sectionTitle: "Carousel section",
@@ -13,7 +13,7 @@ module.exports = [
     sectionIncludedTemplateString: "02_Carousel.njk",
     sectionOutputFileName: "02_Carousel.html",
     cssFilePath: "../01_CSS/02_Carousel",
-    cssFilesArray: ["02_Carousel"],
+    cssFilesArray: ["02_Carousel", "02_Carousel_media_queries"],
   },
   {
     sectionTitle: "Cells section",
@@ -21,7 +21,7 @@ module.exports = [
     sectionIncludedTemplateString: "03_Cells.njk",
     sectionOutputFileName: "03_Cells.html",
     cssFilePath: "../01_CSS/03_Cells",
-    cssFilesArray: ["03_Cells"],
+    cssFilesArray: ["03_Cells", "03_Cells_media_queries"],
   },
   {
     sectionTitle: "About section",
@@ -29,7 +29,7 @@ module.exports = [
     sectionIncludedTemplateString: "04_About.njk",
     sectionOutputFileName: "04_About.html",
     cssFilePath: "../01_CSS/04_About",
-    cssFilesArray: ["04_About"],
+    cssFilesArray: ["04_About", "04_About_media_queries"],
   },
   {
     sectionTitle: "Testimonials section",
@@ -37,7 +37,7 @@ module.exports = [
     sectionIncludedTemplateString: "05_Testimonials.njk",
     sectionOutputFileName: "05_Testimonials.html",
     cssFilePath: "../01_CSS/05_Testimonials",
-    cssFilesArray: ["05_Testimonials"],
+    cssFilesArray: ["05_Testimonials", "05_Testimonials_media_queries"],
   },
   {
     sectionTitle: "Staff section",
@@ -45,7 +45,7 @@ module.exports = [
     sectionIncludedTemplateString: "06_Staff.njk",
     sectionOutputFileName: "06_Staff.html",
     cssFilePath: "../01_CSS/06_Staff",
-    cssFilesArray: ["06_Staff"],
+    cssFilesArray: ["06_Staff", "06_Staff_media_queries"],
   },
   {
     sectionTitle: "Updates section",
@@ -53,7 +53,7 @@ module.exports = [
     sectionIncludedTemplateString: "07_Updates.njk",
     sectionOutputFileName: "07_Updates.html",
     cssFilePath: "../01_CSS/07_Updates",
-    cssFilesArray: ["07_Updates"],
+    cssFilesArray: ["07_Updates", "07_Updates_media_queries"],
   },
   {
     sectionTitle: "Footer section",
@@ -61,6 +61,6 @@ module.exports = [
     sectionIncludedTemplateString: "08_Footer.njk",
     sectionOutputFileName: "08_Footer.html",
     cssFilePath: "../01_CSS/08_Footer",
-    cssFilesArray: ["08_Footer"],
+    cssFilesArray: ["08_Footer", "08_Footer_media_queries"],
   },
 ];

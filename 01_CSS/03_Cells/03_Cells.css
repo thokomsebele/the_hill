@@ -25,7 +25,7 @@
 }
 
 #cellsSection .cellDiv .cellDiv_svgContainer svg {
-  width: 80px;
+  width: 60px;
   float: left;
   display: block;
   fill: #0a173b;
@@ -40,6 +40,7 @@
 
 #cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner h4 {
   color: #ed2224;
+  margin-bottom: 5px;
 }
 
 #cellsSection .cellDiv .cellDiv_textContainer .cellDiv_textContainerInner p {
