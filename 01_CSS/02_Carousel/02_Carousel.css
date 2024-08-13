@@ -14,6 +14,7 @@
 #carouselSection #carouselContainer .carouselFace {
   flex: 0 0 100%;
   display: flex;
+  position: relative;
   justify-content: center;
 }
 
@@ -32,10 +33,13 @@
 
 #carouselSection #carouselContainer .carouselFace p {
   position: absolute;
-  top: 50%;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1000;
   width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
   padding: 10px;
   font-weight: 500;
   font-size: 18px;
@@ -49,6 +53,7 @@
   cursor: pointer;
   transform: translateY(-50%);
   padding: 0;
+  z-index: 2000;
 }
 #carouselSection .carouselArrowDiv#arrowDivLeft {
   left: 10px;

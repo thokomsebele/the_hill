@@ -1,4 +1,9 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  #carouselSection #carouselContainer .carouselFace p {
+    width: 100%;
+    padding: 0 50px;
+  }
+
   #carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv {
     height: 400px;
   }

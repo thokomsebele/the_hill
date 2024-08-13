@@ -57,17 +57,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", () => {
   if (window.innerWidth <= 767) {
-    const container = document.querySelector(".carouselFaceImageDiv");
-    const img = container.querySelector("img");
-    let scrollPosition = 0;
-    const scrollStep = 2; // Adjust scroll speed
-    const maxScroll = img.offsetWidth - window.innerWidth;
-    scrollImage();
-    function scrollImage() {
-      scrollPosition += scrollStep;
-      if (scrollPosition > maxScroll) scrollPosition = 0;
-      container.scrollLeft = scrollPosition;
-      requestAnimationFrame(scrollImage);
+    let contArr = document.querySelectorAll(".carouselFaceImageDiv");
+    for (let cInd = 0; cInd < contArr.length; cInd++) {
+      let cont = contArr[cInd];
+      let img = cont.querySelector("img");
+      let scrollStep = 2; // Scroll speed
+      let maxScroll = img.offsetWidth - window.innerWidth;
+      let scrollPosition = 0;
+      scrollImage();
+      function scrollImage() {
+        scrollPosition += scrollStep;
+        if (scrollPosition > maxScroll) scrollPosition = 0;
+        cont.scrollLeft = scrollPosition;
+        requestAnimationFrame(scrollImage);
+      }
     }
   }
 });
