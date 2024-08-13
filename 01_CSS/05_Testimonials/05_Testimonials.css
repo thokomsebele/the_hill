@@ -10,7 +10,8 @@
 }
 
 #testimonialSection .testimonialDiv {
-  height: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
   width: 30%;
 }
 

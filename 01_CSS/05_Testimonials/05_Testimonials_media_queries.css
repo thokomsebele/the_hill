@@ -1,14 +1,19 @@
-@media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+@media only screen and (min-device-width: 100px) and (max-device-width: 750px) {
+  #testimonialSection #testimonialDivContainer {
+    display: block;
+  }
+  #testimonialSection .testimonialDiv {
+    float: left;
+    padding: 0 5px;
+  }
 }
-
-@media only screen and (min-device-width: 100px) and (max-device-width: 249px) {
+@media only screen and (min-device-width: 100px) and (max-device-width: 599px) {
+  #testimonialSection .testimonialDiv {
+    width: 100%;
+  }
 }
-
-@media only screen and (min-device-width: 250px) and (max-device-width: 299px) {
-}
-
-@media only screen and (min-device-width: 300px) and (max-device-width: 699px) {
-}
-
-@media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
+@media only screen and (min-device-width: 600px) and (max-device-width: 750px) {
+  #testimonialSection .testimonialDiv {
+    width: 50%;
+  }
 }
