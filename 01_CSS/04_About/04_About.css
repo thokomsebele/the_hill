@@ -1,5 +1,10 @@
 #aboutSection {
-  display: flex;
+  float: left;
+}
+
+#aboutSection #aboutSectionContainer {
+  display: block;
+  float: left;
 }
 
 #aboutSection #aboutSection_videoDiv {
@@ -18,7 +23,7 @@
 
 #aboutSection #aboutSection_textDiv {
   width: 40%;
-  height: 100%;
+  float: left;
   padding: 10px;
 }
 #aboutSection #aboutSection_textDiv h4 {
