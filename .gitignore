@@ -1,5 +1,6 @@
 00_Pages/*
 98_Sections/*
+96_Docs/Images_01/*
 !98_Sections/00_sectionTemplate.njk
 
 
