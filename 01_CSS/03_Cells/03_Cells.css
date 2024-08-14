@@ -49,10 +49,3 @@
   line-height: 14px;
   color: #0a173b;
 }
-
-#cellsSection .cellDiv.cellDiv_01,
-#cellsSection .cellDiv.cellDiv_02,
-#cellsSection .cellDiv.cellDiv_04,
-#cellsSection .cellDiv.cellDiv_05 {
-  border-right: 2px solid #ed2224;
-}

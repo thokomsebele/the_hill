@@ -2,19 +2,26 @@
   top: 0;
   left: 0;
   height: 80px;
-  z-index: 1000;
+  z-index: 1000000;
   padding: 0 15px;
+  padding-bottom: 2px;
   margin-top: 0px;
   background: #fff;
   position: fixed;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 #navBarSection .navBar_logo,
 #navBarSection #navBar_links {
   height: 100%;
   float: left;
+}
+
+#navBarSection .navBar_logo {
+  cursor: pointer;
+  border-bottom: 4px solid #ffffff;
 }
 
 #navBarSection #navBar_links,
@@ -24,9 +31,11 @@
 
 #navBarSection #navBar_links .navParentPage {
   width: 16.667%;
+  height: 100%;
   float: left;
+  border-bottom: 4px solid #ffffff;
 }
-#navBarSection #navBar_links .navParentPage_focused {
+#navBarSection #navBar_links .navParentPage.navParentPage_focused {
   border-bottom: 4px solid #ed2224;
 }
 
