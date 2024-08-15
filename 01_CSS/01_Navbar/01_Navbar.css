@@ -38,6 +38,9 @@
 #navBarSection .navBar_links .navParentPage.navParentPage_focused {
   border-bottom: 4px solid #ed2224;
 }
+#navBarSection .navBar_links .navParentPage:hover {
+  border-bottom: 4px solid #fff0cf !important;
+}
 
 #navBarSection .navBar_links .navLink {
   display: block;
