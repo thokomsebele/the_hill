@@ -5,7 +5,11 @@ module.exports = [
     sectionIncludedTemplateString: "01_Navbar.njk",
     sectionOutputFileName: "01_Navbar.html",
     cssFilePath: "../01_CSS/01_Navbar",
-    cssFilesArray: ["01_Navbar", "01_Navbar_media_queries"],
+    cssFilesArray: [
+      "01_Navbar",
+      "01_Navbar_Hamburger",
+      "01_Navbar_media_queries",
+    ],
   },
   {
     sectionTitle: "Carousel section",
