@@ -3,7 +3,7 @@
   height: 26px;
   float: right;
   position: relative;
-  margin: 17px 0;
+  margin: 26px 0;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
   -o-transform: rotate(0);
@@ -20,7 +20,7 @@
   position: absolute;
   height: 4px;
   width: 100%;
-  background: #39b54a;
+  background: #ed2224;
   border-radius: 9px;
   opacity: 1;
   left: 0;

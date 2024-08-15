@@ -11,25 +11,25 @@
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 249px) {
   .section {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }
 @media only screen and (min-device-width: 250px) and (max-device-width: 299px) {
   .section {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 @media only screen and (min-device-width: 300px) and (max-device-width: 699px) {
   .section {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 @media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
   .section {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
