@@ -1,20 +1,60 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  body #navBarSection .navBar_links .navParentPage .navPageInfo,
+  body #navBarSection .navBar_links .navParentPage:hover .navPageInfo {
+    display: none;
+  }
+
+  body #navBarSection .navBar_logo {
+    height: 80px;
+  }
+
+  body #navBarSection .navBar_links {
+    margin: 0;
+    width: 160px;
+    height: 100%;
+    float: left;
+    display: none;
+    position: relative;
+    padding-top: 20px;
+  }
+
+  body #navBarSection .navBar_links .navParentPage {
+    width: 100%;
+    text-align: left;
+    height: 50px;
+    line-height: 50px;
+  }
+
+  body #navBarSection .navBar_links .navParentPage .navLink {
+    line-height: 50px;
+  }
+
+  body #navBarSection .navBar_links .currentPage span {
+    left: -15px;
+    bottom: 12px;
+  }
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 249px) {
+  body #navBarSection .navBar_links {
+    width: 90px;
+  }
 }
 
 @media only screen and (min-device-width: 250px) and (max-device-width: 299px) {
+  body #navBarSection .navBar_links {
+    width: 130px;
+  }
 }
 
 @media only screen and (min-device-width: 300px) and (max-device-width: 699px) {
+  body #navBarSection .navBar_links {
+    width: 180px;
+  }
 }
 
 @media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
-}
-
-@media only screen and (min-device-width: 1000px) {
-  .mobileOnlyElement {
-    display: none;
+  body #navBarSection .navBar_links {
+    width: 240px;
   }
 }

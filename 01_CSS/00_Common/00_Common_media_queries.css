@@ -1,4 +1,12 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  body .desktopOnlyElement {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 1000px) {
+  body .mobileOnlyElement {
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 100px) and (max-device-width: 249px) {
@@ -7,21 +15,18 @@
     padding-right: 15px;
   }
 }
-
 @media only screen and (min-device-width: 250px) and (max-device-width: 299px) {
   .section {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
-
 @media only screen and (min-device-width: 300px) and (max-device-width: 699px) {
   .section {
     padding-left: 50px;
     padding-right: 50px;
   }
 }
-
 @media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
   .section {
     padding-left: 75px;

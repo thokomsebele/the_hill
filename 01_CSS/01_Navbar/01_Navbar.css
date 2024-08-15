@@ -14,7 +14,7 @@
 }
 
 #navBarSection .navBar_logo,
-#navBarSection #navBar_links {
+#navBarSection .navBar_links {
   height: 100%;
   float: left;
 }
@@ -24,42 +24,42 @@
   border-bottom: 4px solid #ffffff;
 }
 
-#navBarSection #navBar_links,
-#navBarSection #navBar_links .navPageInfo .navPageInfoInner {
+#navBarSection .navBar_links,
+#navBarSection .navBar_links .navPageInfo .navPageInfoInner {
   width: 850px;
 }
 
-#navBarSection #navBar_links .navParentPage {
+#navBarSection .navBar_links .navParentPage {
   width: 16.667%;
   height: 100%;
   float: left;
   border-bottom: 4px solid #ffffff;
 }
-#navBarSection #navBar_links .navParentPage.navParentPage_focused {
+#navBarSection .navBar_links .navParentPage.navParentPage_focused {
   border-bottom: 4px solid #ed2224;
 }
 
-#navBarSection #navBar_links .navLink {
+#navBarSection .navBar_links .navLink {
   display: block;
   width: 100%;
-  height: 80px;
+  height: 100%;
   line-height: 80px;
   text-align: center;
 }
 
-#navBarSection #navBar_links .navParentPage_focused .navLink {
+#navBarSection .navBar_links .navParentPage_focused .navLink {
   color: #0a173b;
   font-weight: 500;
 }
-#navBarSection #navBar_links .navLink:hover,
-#navBarSection #navBar_links .navParentPage:hover .navLink,
-#navBarSection #navBar_links .navPageInfo .navPageInfo_list li:hover {
+#navBarSection .navBar_links .navLink:hover,
+#navBarSection .navBar_links .navParentPage:hover .navLink,
+#navBarSection .navBar_links .navPageInfo .navPageInfo_list li:hover {
   color: #0a173b;
   font-weight: 500;
   background: #fff0cf;
 }
 
-#navBarSection #navBar_links .navPageInfo {
+#navBarSection .navBar_links .navPageInfo {
   left: 0;
   top: 80px;
   position: fixed;
@@ -70,32 +70,32 @@
   padding-bottom: 30px;
   display: none;
 }
-#navBarSection #navBar_links .navParentPage:hover .navPageInfo {
+#navBarSection .navBar_links .navParentPage:hover .navPageInfo {
   display: block;
 }
 
-#navBarSection #navBar_links .navPageInfo .navPageInfoInner {
+#navBarSection .navBar_links .navPageInfo .navPageInfoInner {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-#navBarSection #navBar_links .navPageInfo .navPageInfo_intro {
+#navBarSection .navBar_links .navPageInfo .navPageInfo_intro {
   float: left;
   width: 400px;
   height: 100%;
 }
 
-#navBarSection #navBar_links .navPageInfo .navPageInfo_intro h3 {
+#navBarSection .navBar_links .navPageInfo .navPageInfo_intro h3 {
   margin-bottom: 10px;
   font-family: "MSE_Athelas_Bold";
 }
 
-#navBarSection #navBar_links .navPageInfo .navPageInfo_list {
+#navBarSection .navBar_links .navPageInfo .navPageInfo_list {
   float: left;
   margin-left: 50px;
 }
-#navBarSection #navBar_links .navPageInfo .navPageInfo_list li {
+#navBarSection .navBar_links .navPageInfo .navPageInfo_list li {
   height: 35px;
   line-height: 35px;
   padding: 0 10px;

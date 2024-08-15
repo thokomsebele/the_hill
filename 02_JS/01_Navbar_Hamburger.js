@@ -1,14 +1,14 @@
 let hamburger = document.querySelector("#hamburger");
-let header = document.querySelector("#navBarSection");
-let navbar = document.querySelector("#navBar_links");
+let navSect = document.querySelector("#navBarSection");
+let navbar = document.querySelector(".navBar_links");
 let logo = document.querySelector(".navBar_logo");
 
 hamburger.onclick = toggleHamburger;
 
 document.addEventListener("click", function (event) {
-  let isHeaderClick = header.contains(event.target);
+  let isNavSect = navSect.contains(event.target);
   let menuIsOpen = hamburger.classList.contains("open");
-  if (!isHeaderClick && menuIsOpen) toggleHamburger();
+  if (!isNavSect && menuIsOpen) toggleHamburger();
 });
 
 window.onresize = toggleNavbarElementVisibiliy;
@@ -17,13 +17,16 @@ function toggleNavbarElementVisibiliy() {
     if (hamburger.classList.contains("open")) {
       logo.style.display = "none";
       navbar.style.display = "block";
+      navSect.style.height = "325px";
     } else {
       logo.style.display = "block";
       navbar.style.display = "none";
+      navSect.style.height = "80px";
     }
   } else {
     logo.style.display = "block";
     navbar.style.display = "block";
+    navSect.style.height = "80px";
   }
 }
 function toggleHamburger() {

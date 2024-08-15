@@ -56,6 +56,7 @@ gulp.task("pages", async function () {
       let cssPartials = [
         "01_CSS/00_Common/00_Common.css",
         "01_CSS/00_Common/00_Common_media_queries.css",
+        "01_CSS/01_Navbar/01_Navbar_Hamburger.css",
       ];
       pgSects.forEach((s) => {
         cssPartials.push(`01_CSS/${s}/${s}.css`);
