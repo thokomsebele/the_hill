@@ -28,6 +28,23 @@ h5 {
   font-family: "MSE_Athelas_Bold";
 }
 
+h3 {
+  font-size: 22px;
+  line-height: 23px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 21px;
+}
+h5 {
+  font-size: 18px;
+  line-height: 17px;
+}
+p {
+  font-size: 16px;
+  line-height: 17px;
+}
+
 p,
 a,
 li {
@@ -63,7 +80,7 @@ body {
   font-size: 23px;
   line-height: 24px;
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   font-family: "MSE_Athelas_Bold";
 }
 

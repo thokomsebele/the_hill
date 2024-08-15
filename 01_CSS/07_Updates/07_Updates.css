@@ -13,6 +13,7 @@
   width: 100%;
   float: left;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 #updatesSection
@@ -37,7 +38,7 @@
 }
 
 #updatesSection .updatesContainer_Col.updatesContainer_Col_Min .updateDiv {
-  height: 200px;
+  min-height: 150px;
 }
 #updatesSection
   .updatesContainer_Col.updatesContainer_Col_Min

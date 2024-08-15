@@ -31,7 +31,7 @@
 }
 
 #footerSection ul li {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 24px;
   cursor: pointer;
   text-align: center;
@@ -48,4 +48,8 @@
 #footerSection #footerSection_bottomDiv {
   bottom: 0;
   height: 50px;
+}
+#footerSection #footerSection_bottomDiv h5 {
+  font-size: 13px;
+  line-height: 14px;
 }
