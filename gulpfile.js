@@ -7,6 +7,7 @@ const cleanCSS = require("gulp-clean-css");
 const htmlmin = require("gulp-htmlmin");
 const sectionsArray = require("./gulpVariables/sectionsArray");
 const pagesArray = require("./gulpVariables/pagesArray");
+const carouselArray = require("./gulpVariables/carouselPicturesArray");
 let pageLinks = {
   index: "./index.html",
 };
@@ -17,6 +18,7 @@ gulp.task("sections", async function () {
       s.jsFolder = "../02_JS";
       s.resourcesFolder = "../04_Resources";
       s.pageLinks = pageLinks;
+      s.carouselArray = carouselArray;
       await new Promise((resolveB) => {
         gulp
           .src("98_Sections/00_sectionTemplate.njk")
@@ -43,6 +45,7 @@ gulp.task("pages", async function () {
         htmlPartials.push(`03_HTML/${s}/`);
       });
       pg.pageLinks = pageLinks;
+      pg.carouselArray = carouselArray;
       await new Promise((resolveB) => {
         gulp
           .src(`97_Templates/${pg.templatePage}`)

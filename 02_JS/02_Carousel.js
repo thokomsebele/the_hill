@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
       for (let cInd = 0; cInd < contArr.length; cInd++) {
         let cont = contArr[cInd];
         let img = cont.querySelector("img");
-        let scrollStep = 2; // Scroll speed
+        let scrollStep = 1; // Scroll speed
         let maxScroll = img.offsetWidth - window.innerWidth;
         let scrollPosition = 0;
         scrollImage();
