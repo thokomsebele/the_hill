@@ -2,7 +2,7 @@
   body #aboutSection {
     display: block;
   }
-  body #aboutSection #aboutSection_videoDiv,
+  body #aboutSection #aboutSection_mediaDiv,
   body #aboutSection #aboutSection_textDiv {
     float: left;
     width: 100%;
