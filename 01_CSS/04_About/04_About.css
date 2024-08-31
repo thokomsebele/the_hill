@@ -24,16 +24,15 @@
   font-size: 17px;
   line-height: 18px;
   margin-bottom: 10px;
-  padding-right: 20px;
   padding-left: 0;
 }
 
 #aboutSection.section #aboutSection_textDiv {
-  width: 65%;
+  width: 60%;
 }
 
 #aboutSection #aboutSection_mediaDiv {
-  width: 35%;
+  width: 40%;
   float: left;
   display: flex;
   position: relative;
@@ -41,7 +40,6 @@
   justify-content: center;
 }
 #aboutSection #aboutSection_mediaDiv img {
-  position: absolute;
-  top: 0;
   height: 100%;
+  max-height: 250px;
 }
