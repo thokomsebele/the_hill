@@ -43,3 +43,33 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }, 2500);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const scrollStep = 1; // Scroll speed
+  let scrollPositions = {};
+  startScrolling();
+  window.addEventListener("resize", startScrolling);
+  function startScrolling() {
+    if (window.innerWidth <= 999) scrollImage("horizontal");
+    else scrollImage("vertical");
+  }
+  function scrollImage(direction) {
+    let contArr = document.querySelectorAll(".carouselFaceImageDiv");
+    contArr.forEach((cont, cInd) => {
+      let img = cont.querySelector("img");
+      if (!scrollPositions[cInd]) scrollPositions[cInd] = 0;
+      let maxScroll, scrollProperty;
+      if (direction === "horizontal") {
+        maxScroll = img.offsetWidth - window.innerWidth;
+        scrollProperty = "scrollLeft";
+      } else {
+        maxScroll = img.offsetHeight - window.innerHeight;
+        scrollProperty = "scrollTop";
+      }
+      scrollPositions[cInd] += scrollStep;
+      if (scrollPositions[cInd] > maxScroll) scrollPositions[cInd] = 0;
+      cont[scrollProperty] = scrollPositions[cInd];
+    });
+    requestAnimationFrame(() => scrollImage(direction));
+  }
+});

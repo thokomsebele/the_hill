@@ -22,12 +22,17 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  height: 450px;
 }
-
 #carouselSection #carouselContainer .carouselFace .carouselFaceImageDiv img {
+  top: 0;
+  left: 0;
+  position: absolute;
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover;
+  transform: translateX(0);
 }
 
 #carouselSection #carouselContainer .carouselFace p {

@@ -1,9 +1,9 @@
 module.exports = [
-  "v01.jpg",
-  "v02.jpg",
-  "v03.jpg",
-  "v04.jpg",
-  "v05.jpg",
-  "v06.jpg",
-  "v07.jpg",
+  "c01.jpg",
+  "c02.jpg",
+  "c03.jpg",
+  "c04.jpg",
+  "c05.jpg",
+  "c06.jpg",
+  "c07.jpg",
 ];
