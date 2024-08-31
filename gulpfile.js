@@ -8,9 +8,7 @@ const htmlmin = require("gulp-htmlmin");
 const sectionsArray = require("./gulpVariables/sectionsArray");
 const pagesArray = require("./gulpVariables/pagesArray");
 const carouselArray = require("./gulpVariables/carouselPicturesArray");
-let pageLinks = {
-  index: "./index.html",
-};
+let pageLinks = { index: "./index.html" };
 
 gulp.task("sections", async function () {
   return await new Promise(async (resolveA) => {
@@ -62,8 +60,13 @@ gulp.task("pages", async function () {
         "01_CSS/01_Navbar/01_Navbar_Hamburger.css",
       ];
       pgSects.forEach((s) => {
-        cssPartials.push(`01_CSS/${s}/${s}.css`);
-        cssPartials.push(`01_CSS/${s}/${s}_media_queries.css`);
+        if (s.includes("10_Video")) {
+          cssPartials.push("01_CSS/10_Video/10_Video.css");
+          cssPartials.push("01_CSS/10_Video/10_Video_media_queries.css");
+        } else {
+          cssPartials.push(`01_CSS/${s}/${s}.css`);
+          cssPartials.push(`01_CSS/${s}/${s}_media_queries.css`);
+        }
       });
       await new Promise((resolveC) => {
         gulp

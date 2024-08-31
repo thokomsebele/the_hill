@@ -67,4 +67,20 @@ module.exports = [
     cssFilePath: "../01_CSS/08_Footer",
     cssFilesArray: ["08_Footer", "08_Footer_media_queries"],
   },
+  {
+    sectionTitle: "Welcome section",
+    sectionSrcPathArray: ["03_HTML/09_Welcome/"],
+    sectionIncludedTemplateString: "09_Welcome.njk",
+    sectionOutputFileName: "09_Welcome.html",
+    cssFilePath: "../01_CSS/09_Welcome",
+    cssFilesArray: ["09_Welcome", "09_Welcome_media_queries"],
+  },
+  {
+    sectionTitle: "Video curriculum section",
+    sectionSrcPathArray: ["03_HTML/10_Video_Curriculum/"],
+    sectionIncludedTemplateString: "10_Video_Curriculum.njk",
+    sectionOutputFileName: "10_Video_Curriculum.html",
+    cssFilePath: "../01_CSS/10_Video",
+    cssFilesArray: ["10_Video", "10_Video_media_queries"],
+  },
 ];

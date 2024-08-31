@@ -1,0 +1,9 @@
+#welcomeSection {
+  float: left;
+}
+
+#welcomeSection #welcomeSectionContainer {
+  width: 100%;
+  float: left;
+  display: block;
+}

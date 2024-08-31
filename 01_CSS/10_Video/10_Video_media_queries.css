@@ -1,0 +1,13 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 849px) {
+  body #aboutSection {
+    display: block;
+  }
+  body #aboutSection #aboutSection_videoDiv,
+  body #aboutSection #aboutSection_textDiv {
+    float: left;
+    width: 100%;
+  }
+  body #aboutSection #aboutSection_textDiv p {
+    padding-left: 0;
+  }
+}

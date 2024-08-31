@@ -7,7 +7,9 @@ module.exports = [
     outputCSS: "1_index.css",
     pageSections: [
       "02_Carousel",
+      "09_Welcome",
       "04_About",
+      "10_Video_Curriculum",
       "06_Staff",
       "07_Updates",
       "08_Footer",
