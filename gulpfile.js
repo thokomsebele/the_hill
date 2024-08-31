@@ -8,7 +8,13 @@ const htmlmin = require("gulp-htmlmin");
 const sectionsArray = require("./gulpVariables/sectionsArray");
 const pagesArray = require("./gulpVariables/pagesArray");
 const carouselArray = require("./gulpVariables/carouselPicturesArray");
-let pageLinks = { index: "./index.html" };
+let pageLinks = {
+  index: "./index.html",
+  social_media_facebook: `https://www.facebook.com/profile.php?id=61563936905193&mibextid=ZbWKwL`,
+  social_media_instagram: `https://www.instagram.com/thehillprep?igsh=MWwxaWM3djV6MXJzcg==`,
+  social_media_linkedin: `https://www.linkedin.com/company/the-hill-preparatory-school/`,
+  social_media_youtube: `https://www.youtube.com/watch?v=KFwokZvAjSo`,
+};
 
 gulp.task("sections", async function () {
   return await new Promise(async (resolveA) => {
