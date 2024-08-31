@@ -31,7 +31,9 @@
 }
 
 #updatesSection .updatesContainer_Col .updateDiv h4 {
-  margin-bottom: 0;
+  margin-top: 5px;
+  margin-bottom: 12.5px;
+  line-height: 15px;
 }
 #updatesSection .updatesContainer_Col .updateDiv h5 {
   margin-bottom: 7px;
