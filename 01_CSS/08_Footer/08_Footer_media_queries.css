@@ -6,7 +6,7 @@
     float: left;
   }
   #footerSection .footerDiv.footerDiv_01 {
-    padding-top: 80px;
+    padding-top: 140px;
   }
 }
 @media only screen and (min-device-width: 100px) and (max-device-width: 599px) {
@@ -16,9 +16,8 @@
   #footerSection .footerDiv.footerDiv_02 {
     padding-top: 20px;
   }
-  #footerSection #footerSection_logoDiv {
-    top: -75px;
-    height: 140px;
+  html body #footerSection #footerSection_logoDiv {
+    justify-content: center;
   }
 }
 @media only screen and (min-device-width: 600px) and (max-device-width: 850px) {

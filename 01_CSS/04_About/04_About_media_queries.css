@@ -1,13 +1,13 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 849px) {
-  body #aboutSection {
+  html body #aboutSection.section {
     display: block;
   }
-  body #aboutSection #aboutSection_mediaDiv,
-  body #aboutSection #aboutSection_textDiv {
+  html body #aboutSection.section #aboutSection_mediaDiv,
+  html body #aboutSection.section #aboutSection_textDiv {
     float: left;
     width: 100%;
   }
-  body #aboutSection #aboutSection_textDiv p {
+  html body #aboutSection.section #aboutSection_textDiv p {
     padding-left: 0;
   }
 }

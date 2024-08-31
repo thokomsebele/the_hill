@@ -23,34 +23,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
-  setInterval(function () {
-    if (window.innerWidth <= 999) {
-      let contArr = document.querySelectorAll(".carouselFaceImageDiv");
-      for (let cInd = 0; cInd < contArr.length; cInd++) {
-        let cont = contArr[cInd];
-        let img = cont.querySelector("img");
-        let scrollStep = 1; // Scroll speed
-        let maxScroll = img.offsetWidth - window.innerWidth;
-        let scrollPosition = 0;
-        scrollImage();
-        function scrollImage() {
-          scrollPosition += scrollStep;
-          if (scrollPosition > maxScroll) scrollPosition = 0;
-          cont.scrollLeft = scrollPosition;
-          requestAnimationFrame(scrollImage);
-        }
-      }
-    }
-  }, 2500);
-});
-
-document.addEventListener("DOMContentLoaded", () => {
   const scrollStep = 1; // Scroll speed
   let scrollPositions = {};
   startScrolling();
   window.addEventListener("resize", startScrolling);
   function startScrolling() {
-    if (window.innerWidth <= 999) scrollImage("horizontal");
+    if (window.innerWidth <= 499) scrollImage("horizontal");
     else scrollImage("vertical");
   }
   function scrollImage(direction) {
