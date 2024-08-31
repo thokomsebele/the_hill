@@ -1,9 +1,22 @@
 #welcomeSection {
   float: left;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-#welcomeSection #welcomeSectionContainer {
-  width: 100%;
-  float: left;
-  display: block;
+#welcomeSection h1,
+#welcomeSection h3,
+#welcomeSection h4 {
+  text-align: center;
+  font-weight: normal;
+  font-family: "MSE_OpenSans_Regular";
+}
+
+#welcomeSection h1 {
+  font-family: "MSE_Athelas_Bold";
+  font-weight: bold;
+}
+
+#welcomeSection h3 {
+  margin-top: 15px;
 }
