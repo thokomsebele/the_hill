@@ -3,7 +3,7 @@
 }
 
 #subjectsSection .subjectDiv {
-  width: 33%;
+  width: 120px;
   float: left;
   min-height: 150px;
   margin-bottom: 15px;
@@ -12,17 +12,15 @@
 
 #subjectsSection .subjectDiv .subjectDiv_svgContainer,
 #subjectsSection .subjectDiv .subjectDiv_textContainer {
-  height: 100%;
+  width: 100%;
   float: left;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#subjectsSection .subjectDiv .subjectDiv_svgContainer {
-  width: 25%;
-}
+
 #subjectsSection .subjectDiv .subjectDiv_textContainer {
-  width: 75%;
+  margin-top: 10px;
 }
 
 #subjectsSection .subjectDiv .subjectDiv_svgContainer svg {
@@ -30,28 +28,10 @@
   float: left;
   display: block;
   fill: #0a173b;
-  padding-right: 10px;
 }
 
-#subjectsSection
-  .subjectDiv
-  .subjectDiv_textContainer
-  .subjectDiv_textContainerInner
-  h4,
-#subjectsSection
-  .subjectDiv
-  .subjectDiv_textContainer
-  .subjectDiv_textContainerInner
-  p {
+#subjectsSection .subjectDiv .subjectDiv_textContainer h4 {
   width: 100%;
   float: left;
-}
-
-#subjectsSection
-  .subjectDiv
-  .subjectDiv_textContainer
-  .subjectDiv_textContainerInner
-  h4 {
-  color: #ed2224;
-  margin-bottom: 5px;
+  text-align: center;
 }
