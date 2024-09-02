@@ -1,16 +1,5 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
-  #subjectsSection .subjectDiv {
-    width: 100%;
-    min-height: unset;
-  }
 }
 
 @media only screen and (min-device-width: 700px) and (max-device-width: 999px) {
-  html body #subjectsSection .subjectDiv {
-    width: 50%;
-    min-height: 125px;
-  }
-  html body #subjectsSection .subjectDiv .subjectDiv_svgContainer svg {
-    width: 75px;
-  }
 }
