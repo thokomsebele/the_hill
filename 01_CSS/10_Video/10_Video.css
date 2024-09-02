@@ -8,6 +8,22 @@
   display: block;
 }
 
+.videoSection .videoSection_textDiv {
+  width: 50%;
+  float: left;
+  padding: 10px;
+  padding-left: 0;
+}
+.videoSection .videoSection_textDiv h4 {
+  margin-bottom: 10px;
+}
+.videoSection .videoSection_textDiv p {
+  font-size: 17px;
+  line-height: 18px;
+  margin-bottom: 10px;
+  padding-left: 0;
+}
+
 .videoSection .videoSection_mediaDiv {
   width: 50%;
   float: left;

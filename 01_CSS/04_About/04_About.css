@@ -8,19 +8,16 @@
   display: block;
 }
 
-#aboutSection #aboutSection_textDiv,
-.videoSection .videoSection_textDiv {
+#aboutSection #aboutSection_textDiv {
   width: 50%;
   float: left;
   padding: 10px;
   padding-left: 0;
 }
-#aboutSection #aboutSection_textDiv h4,
-.videoSection .videoSection_textDiv h4 {
+#aboutSection #aboutSection_textDiv h4 {
   margin-bottom: 10px;
 }
-#aboutSection #aboutSection_textDiv p,
-.videoSection .videoSection_textDiv p {
+#aboutSection #aboutSection_textDiv p {
   font-size: 17px;
   line-height: 18px;
   margin-bottom: 10px;
