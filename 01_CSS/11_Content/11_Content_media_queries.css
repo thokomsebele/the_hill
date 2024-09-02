@@ -1,0 +1,16 @@
+@media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
+  body .contentSection .contentImg,
+  body .contentSection article {
+    width: 100%;
+  }
+
+  body .contentSection article {
+    margin-bottom: 20px;
+  }
+
+  body .contentSectTypeB .contentImg,
+  body .contentSection .contentImg {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -28,8 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
   startScrolling();
   window.addEventListener("resize", startScrolling);
   function startScrolling() {
-    if (window.innerWidth <= 499) scrollImage("horizontal");
-    else scrollImage("vertical");
+    // if (window.innerWidth <= 499) scrollImage("horizontal");
+    // else scrollImage("vertical");
   }
   function scrollImage(direction) {
     let contArr = document.querySelectorAll(".carouselFaceImageDiv");
