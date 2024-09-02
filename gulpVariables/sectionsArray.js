@@ -99,4 +99,12 @@ module.exports = [
     cssFilePath: "../01_CSS/11_Content",
     cssFilesArray: ["11_Content", "11_Content_media_queries"],
   },
+  {
+    sectionTitle: "Subjects",
+    sectionSrcPathArray: ["03_HTML/12_Subjects/", "03_HTML/12_Subjects/icons"],
+    sectionIncludedTemplateString: "12_Subjects.njk",
+    sectionOutputFileName: "12_Subjects.html",
+    cssFilePath: "../01_CSS/12_Subjects",
+    cssFilesArray: ["12_Subjects", "12_Subjects_media_queries"],
+  },
 ];

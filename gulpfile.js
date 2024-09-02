@@ -44,9 +44,11 @@ gulp.task("pages", async function () {
       pg.resourcesFolder = "./resources";
       let pgSects = ["01_Navbar"];
       pgSects = pgSects.concat(pg.pageSections);
-      let htmlPartials = ["03_HTML/00_Partials/", "03_HTML/03_Cells/icons"];
+      let htmlPartials = ["03_HTML/00_Partials/"];
+      let iconsFolders = ["03_Cells", "12_Subjects"];
       pgSects.forEach((s) => {
         htmlPartials.push(`03_HTML/${s}/`);
+        if (iconsFolders.includes(s)) htmlPartials.push(`03_HTML/${s}/icons`);
       });
       pg.pageLinks = pageLinks;
       pg.carouselArray = carouselArray;
