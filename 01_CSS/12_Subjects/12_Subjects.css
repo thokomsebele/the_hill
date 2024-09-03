@@ -10,7 +10,7 @@
   padding: 0 15px;
 }
 
-#subjectsSection .subjectDiv .subjectDiv_svgContainer,
+#subjectsSection .subjectDiv .subjectDiv_pngContainer,
 #subjectsSection .subjectDiv .subjectDiv_textContainer {
   width: 100%;
   float: left;
@@ -23,11 +23,10 @@
   margin-top: 10px;
 }
 
-#subjectsSection .subjectDiv .subjectDiv_svgContainer svg {
+#subjectsSection .subjectDiv .subjectDiv_pngContainer img {
   width: 60px;
   float: left;
   display: block;
-  fill: #0a173b;
 }
 
 #subjectsSection .subjectDiv .subjectDiv_textContainer h4 {
