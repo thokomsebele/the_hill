@@ -84,7 +84,7 @@ module.exports = [
     cssFilesArray: ["10_Video", "10_Video_media_queries"],
   },
   {
-    sectionTitle: "Content A",
+    sectionTitle: "Content A : ",
     sectionSrcPathArray: ["03_HTML/11_Content/"],
     sectionIncludedTemplateString: "11_Content_A.njk",
     sectionOutputFileName: "11_Content_A.html",
@@ -92,10 +92,18 @@ module.exports = [
     cssFilesArray: ["11_Content", "11_Content_media_queries"],
   },
   {
-    sectionTitle: "Content B",
+    sectionTitle: "Content B : ",
     sectionSrcPathArray: ["03_HTML/11_Content/"],
     sectionIncludedTemplateString: "11_Content_B.njk",
     sectionOutputFileName: "11_Content_B.html",
+    cssFilePath: "../01_CSS/11_Content",
+    cssFilesArray: ["11_Content", "11_Content_media_queries"],
+  },
+  {
+    sectionTitle: "Content C : Curriculum",
+    sectionSrcPathArray: ["03_HTML/11_Content/"],
+    sectionIncludedTemplateString: "11_Content_C.njk",
+    sectionOutputFileName: "11_Content_C_Curriculum.html",
     cssFilePath: "../01_CSS/11_Content",
     cssFilesArray: ["11_Content", "11_Content_media_queries"],
   },

@@ -1,13 +1,12 @@
 #subjectsSection {
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 #subjectsSection .subjectDiv {
-  width: 120px;
   float: left;
-  min-height: 150px;
-  margin-bottom: 15px;
+  width: 120px;
   padding: 0 15px;
+  margin-bottom: 15px;
 }
 
 #subjectsSection .subjectDiv .subjectDiv_pngContainer,

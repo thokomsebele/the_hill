@@ -1,11 +1,10 @@
 .contentSection {
   background-color: #fff;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-
-.contentSectTypeB {
-  background-color: rgba(0, 113, 188, 0.05);
+.contentSection.content_A {
+  margin: 0;
 }
 
 .contentSection .contentImg,
@@ -30,7 +29,7 @@
 .contentSection article {
   width: 45%;
 }
-.contentSectTypeB.contentSection article {
+.contentSection.content_A article {
   width: 70%;
 }
 
@@ -43,7 +42,7 @@
   width: 55%;
   padding-right: 30px;
 }
-.contentSectTypeB.contentSection .contentImg {
+.contentSection.content_A .contentImg {
   width: 30%;
 }
 

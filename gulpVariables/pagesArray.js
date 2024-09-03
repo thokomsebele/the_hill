@@ -29,6 +29,11 @@ module.exports = [
     templatePage: "3_curriculum.njk",
     outputHTML: "curriculum.html",
     outputCSS: "3_curriculum.css",
-    pageSections: ["10_Video_Curriculum", "12_Subjects", "08_Footer"],
+    pageSections: [
+      "10_Video_Curriculum",
+      "11_Content",
+      "12_Subjects",
+      "08_Footer",
+    ],
   },
 ];
