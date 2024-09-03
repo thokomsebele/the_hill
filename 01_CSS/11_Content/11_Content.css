@@ -10,15 +10,21 @@
 
 .contentSection .contentSectInnerDiv article,
 .contentSection .contentSectInnerDiv .contentMedia {
-  float: right;
-}
-.contentSection.contentSectTypeB .contentSectInnerDiv article,
-.contentSection.contentSectTypeB .contentSectInnerDiv .contentMedia {
   float: left;
+}
+.contentSection.contentSection_articleRight .contentSectInnerDiv article,
+.contentSection.contentSection_articleRight .contentSectInnerDiv .contentMedia {
+  float: right;
 }
 
 .contentSection article {
   width: 45%;
+  padding-left: 0;
+  padding-right: 30px;
+}
+.contentSection.contentSection_articleRight article {
+  padding-right: 0;
+  padding-left: 30px;
 }
 .contentSection.content_A article {
   width: 70%;
@@ -31,18 +37,15 @@
 .contentSection .contentMedia {
   width: 55%;
   min-height: 300px;
-  padding-right: 30px;
   display: flex;
   position: relative;
   align-items: center;
   justify-content: center;
+  padding-right: 0;
+  padding-left: 30px;
 }
 .contentSection.content_A .contentMedia {
   width: 30%;
-}
-.contentSection.contentSectTypeB .contentMedia {
-  padding-right: 0;
-  padding-left: 30px;
 }
 .contentSection.content_D .contentMedia {
   aspect-ratio: 16 / 9; /* Adjust this value based on your video's aspect ratio */
