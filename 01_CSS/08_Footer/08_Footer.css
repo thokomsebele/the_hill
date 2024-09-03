@@ -25,7 +25,11 @@
 
 #footerSection #footerSection_logoDiv #footerSection_logo {
   height: 100%;
-  /* border-radius: 75px; */
+}
+#footerSection #footerSection_logoDiv #footerSection_logoDivInner {
+  min-width: 200px;
+  display: flex;
+  justify-content: center;
 }
 
 #footerSection #footerContainer {
@@ -41,6 +45,9 @@
   cursor: pointer;
   text-align: center;
 }
+#footerSection ul li.unclickable {
+  cursor: not-allowed;
+}
 
 #footerSection ul li a {
   display: block;
@@ -51,6 +58,7 @@
 #footerSection .footerDiv {
   padding-top: 30px;
   height: 100%;
+  min-width: 200px;
 }
 #footerSection .footerDiv_01 {
   padding-top: 140px;
@@ -61,6 +69,8 @@
   height: 50px;
 }
 #footerSection #footerSection_bottomDiv h5 {
+  width: 100%;
   font-size: 13px;
   line-height: 14px;
+  text-align: center;
 }
