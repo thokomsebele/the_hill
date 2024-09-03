@@ -51,9 +51,11 @@
 }
 html body #carouselSection #carouselContainer .carouselFace h4 {
   top: 39%;
+  font-family: "MSE_OpenSans_Regular";
 }
 html body #carouselSection #carouselContainer .carouselFace h3 {
   top: 63.6%;
+  font-family: "MSE_OpenSans_Regular";
 }
 html body #carouselSection #carouselContainer .carouselFace p {
   font-weight: 500;

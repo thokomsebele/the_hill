@@ -1,7 +1,7 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
   body .contactUsSection .contactUsSectionInner {
     display: block;
-    height: 1000px;
+    height: 700px;
   }
   body .contactUsSection #sidebar,
   body .contactUsSection form {

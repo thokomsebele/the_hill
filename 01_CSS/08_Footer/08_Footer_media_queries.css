@@ -1,27 +1,54 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 849px) {
-  #footerSection #footerContainer {
+  html body #footerSection #footerContainer {
     display: block;
+    padding-top: 280px;
   }
-  #footerSection .footerDiv {
+  html body #footerSection .footerDiv {
     float: left;
-  }
-  #footerSection .footerDiv.footerDiv_01 {
-    padding-top: 140px;
   }
 }
 @media only screen and (min-device-width: 100px) and (max-device-width: 599px) {
-  #footerSection .footerDiv {
+  html body #footerSection {
+    height: 800px;
+  }
+  html body #footerSection #footerSection_logoDiv,
+  html body #footerSection #footerSection_socialMediaDiv {
+    display: block;
+    padding: 0;
+  }
+  html body #footerSection #footerSection_logoDiv .imgCont,
+  html body #footerSection #footerSection_socialMediaDiv a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  html body #footerSection #footerSection_logoDiv .imgCont {
     width: 100%;
   }
-  #footerSection .footerDiv.footerDiv_02 {
-    padding-top: 20px;
+  html body #footerSection #footerSection_socialMediaDiv a {
+    width: 50%;
+    float: left;
+  }
+  html body #footerSection #footerSection_logoDiv .imgCont img {
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  html body #footerSection #footerSection_socialMediaDiv a svg {
+    height: 35px;
+    margin-bottom: 10px;
+  }
+  html body #footerSection .footerDiv {
+    width: 100%;
   }
   html body #footerSection #footerSection_logoDiv {
     justify-content: center;
   }
+  html body #footerSection #footerSection_socialMediaDiv {
+    height: 90px !important;
+  }
 }
 @media only screen and (min-device-width: 600px) and (max-device-width: 850px) {
-  #footerSection .footerDiv {
+  html body #footerSection .footerDiv {
     width: 48%;
     margin: 10px 1%;
   }

@@ -10,6 +10,9 @@ const pagesArray = require("./gulpVariables/pagesArray");
 const carouselArray = require("./gulpVariables/carouselPicturesArray");
 let pageLinks = {
   index: "./index.html",
+  about_: "./about.html",
+  staff_: "./staff.html",
+  curriculum_: "./curriculum.html",
   social_media_facebook: `https://www.facebook.com/profile.php?id=61563936905193&mibextid=ZbWKwL`,
   social_media_instagram: `https://www.instagram.com/thehillprep?igsh=MWwxaWM3djV6MXJzcg==`,
   social_media_linkedin: `https://www.linkedin.com/company/the-hill-preparatory-school/`,

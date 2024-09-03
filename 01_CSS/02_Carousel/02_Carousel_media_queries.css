@@ -11,4 +11,20 @@
     height: 100%;
     width: auto;
   }
+
+  #carouselSection #carouselContainer .carouselFace h1,
+  #carouselSection #carouselContainer .carouselFace h3,
+  #carouselSection #carouselContainer .carouselFace h4,
+  #carouselSection #carouselContainer .carouselFace p {
+    width: 80%;
+  }
+  html body #carouselSection #carouselContainer .carouselFace h4 {
+    top: 25%;
+  }
+  html body #carouselSection #carouselContainer .carouselFace h1 {
+    top: 40%;
+  }
+  html body #carouselSection #carouselContainer .carouselFace h3 {
+    top: 70%;
+  }
 }
