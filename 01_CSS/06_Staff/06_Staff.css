@@ -1,4 +1,4 @@
-#staffSection #staffDivContainer {
+#staffSection .staffDivContainer {
   display: flex;
   justify-content: space-between;
   float: left;
@@ -48,4 +48,18 @@
 #staffSection .staffDiv .staffDiv_lastRow .staffDiv_lastRow_imgCol img {
   width: 100%;
   float: left;
+}
+
+#staffSection .staffDiv .staffDiv_imgDiv_detailed {
+  width: 100%;
+}
+
+#staffSection .staffDiv .staffDiv_imgDiv_detailed img {
+  width: 100%;
+}
+
+#staffSection .staffDiv .staffDiv_infoDiv_detailed {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }

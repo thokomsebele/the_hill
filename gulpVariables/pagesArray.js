@@ -30,4 +30,12 @@ module.exports = [
     outputCSS: "3_curriculum.css",
     pageSections: ["11_Content", "12_Subjects"],
   },
+  {
+    pageName: "staff",
+    metaDataPageDescription: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean congue turpis id tellus vestibulum, sit amet vulputate ante finibus. Aenean lacinia nisl sapien, ut molestie sapien elementum sed. In fringilla aliquam tortor, quis lobortis purus sollicitudin quis. In hac habitasse platea dictumst. Nullam congue tempus sapien ut laoreet. Donec quis odio eget lacus dictum pulvinar. Aliquam iaculis odio nec nibh hendrerit posuere. Nunc nec commodo sem, et faucibus libero.`,
+    templatePage: "4_staff.njk",
+    outputHTML: "staff.html",
+    outputCSS: "4_staff.css",
+    pageSections: ["06_Staff"],
+  },
 ];
