@@ -29,6 +29,10 @@
   height: 100px;
 }
 
+#footerSection #footerSection_logoDiv .imgCont img {
+  height: 100%;
+}
+
 #footerSection #footerContainer {
   z-index: 1000;
   padding-top: 120px;
