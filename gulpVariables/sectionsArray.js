@@ -101,7 +101,7 @@ module.exports = [
   },
   {
     sectionTitle: "Subjects",
-    sectionSrcPathArray: ["03_HTML/12_Subjects/", "03_HTML/12_Subjects/icons"],
+    sectionSrcPathArray: ["03_HTML/12_Subjects/"],
     sectionIncludedTemplateString: "12_Subjects.njk",
     sectionOutputFileName: "12_Subjects.html",
     cssFilePath: "../01_CSS/12_Subjects",

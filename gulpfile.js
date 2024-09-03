@@ -45,7 +45,7 @@ gulp.task("pages", async function () {
       let pgSects = ["01_Navbar"];
       pgSects = pgSects.concat(pg.pageSections);
       let htmlPartials = ["03_HTML/00_Partials/"];
-      let iconsFolders = ["03_Cells", "12_Subjects"];
+      let iconsFolders = ["03_Cells"];
       pgSects.forEach((s) => {
         htmlPartials.push(`03_HTML/${s}/`);
         if (iconsFolders.includes(s)) htmlPartials.push(`03_HTML/${s}/icons`);
