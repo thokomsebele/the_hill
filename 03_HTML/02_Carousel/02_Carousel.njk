@@ -1,10 +1,14 @@
 <div id="carouselSection" class="section">
   <div id="carouselContainer">
-    {% for cStr in carouselArray %}
+    {% for cc in carouselArray %}
     <div class="carouselFace">
-      <!--<p></p>-->
+        {% if cc.caption_superscript %}
+        <h4>{{cc.caption_superscript}}</h4>
+        {% endif %}
+        <h1>{{cc.caption_header}}</h1>
+        <h3>{{cc.caption_subscript}}</h3>
       <div class="carouselFaceImageDiv">
-        <img src="{{resourcesFolder}}/02_Carousel/{{cStr}}" />
+        <img src="{{resourcesFolder}}/02_Carousel/{{cc.image}}" />
       </div>
     </div>
     {% endfor %}

@@ -35,6 +35,9 @@
   transform: translateX(0);
 }
 
+#carouselSection #carouselContainer .carouselFace h1,
+#carouselSection #carouselContainer .carouselFace h3,
+#carouselSection #carouselContainer .carouselFace h4,
 #carouselSection #carouselContainer .carouselFace p {
   position: absolute;
   z-index: 1000;
@@ -45,6 +48,14 @@
   background-color: rgba(255, 255, 255, 0.2);
   text-align: center;
   padding: 10px;
+}
+html body #carouselSection #carouselContainer .carouselFace h4 {
+  top: 39%;
+}
+html body #carouselSection #carouselContainer .carouselFace h3 {
+  top: 63.6%;
+}
+html body #carouselSection #carouselContainer .carouselFace p {
   font-weight: 500;
   font-size: 18px;
 }
