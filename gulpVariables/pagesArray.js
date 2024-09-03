@@ -9,10 +9,9 @@ module.exports = [
       "02_Carousel",
       "09_Welcome",
       "04_About",
-      "10_Video_Curriculum",
       "06_Staff",
       "07_Updates",
-      "08_Footer",
+      "11_Content",
     ],
   },
   {
@@ -21,7 +20,7 @@ module.exports = [
     templatePage: "2_about.njk",
     outputHTML: "about.html",
     outputCSS: "2_about.css",
-    pageSections: ["11_Content", "08_Footer"],
+    pageSections: ["11_Content"],
   },
   {
     pageName: "curriculum",
@@ -29,11 +28,6 @@ module.exports = [
     templatePage: "3_curriculum.njk",
     outputHTML: "curriculum.html",
     outputCSS: "3_curriculum.css",
-    pageSections: [
-      "10_Video_Curriculum",
-      "11_Content",
-      "12_Subjects",
-      "08_Footer",
-    ],
+    pageSections: ["11_Content", "12_Subjects"],
   },
 ];

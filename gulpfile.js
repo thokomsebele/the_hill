@@ -42,7 +42,7 @@ gulp.task("pages", async function () {
     for (pg of pagesArray) {
       pg.jsFolder = "./js";
       pg.resourcesFolder = "./resources";
-      let pgSects = ["01_Navbar"];
+      let pgSects = ["01_Navbar", "08_Footer"];
       pgSects = pgSects.concat(pg.pageSections);
       let htmlPartials = ["03_HTML/00_Partials/"];
       let iconsFolders = ["03_Cells"];
@@ -68,13 +68,8 @@ gulp.task("pages", async function () {
         "01_CSS/01_Navbar/01_Navbar_Hamburger.css",
       ];
       pgSects.forEach((s) => {
-        if (s.includes("10_Video")) {
-          cssPartials.push("01_CSS/10_Video/10_Video.css");
-          cssPartials.push("01_CSS/10_Video/10_Video_media_queries.css");
-        } else {
-          cssPartials.push(`01_CSS/${s}/${s}.css`);
-          cssPartials.push(`01_CSS/${s}/${s}_media_queries.css`);
-        }
+        cssPartials.push(`01_CSS/${s}/${s}.css`);
+        cssPartials.push(`01_CSS/${s}/${s}_media_queries.css`);
       });
       await new Promise((resolveC) => {
         gulp

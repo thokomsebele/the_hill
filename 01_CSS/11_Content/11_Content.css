@@ -1,29 +1,20 @@
 .contentSection {
-  background-color: #fff;
+  margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.contentSection.content_A {
-  margin: 0;
-}
 
-.contentSection .contentImg,
-.contentSection article {
-  float: right;
-}
-
-.contentSectTypeB .contentImg,
-.contentSectTypeB article {
+.contentSection .contentSectInnerDiv {
   float: left;
 }
 
-.contentSection article h2,
-.contentSection article h3 {
-  margin: 0;
+.contentSection .contentSectInnerDiv article,
+.contentSection .contentSectInnerDiv .contentMedia {
+  float: right;
 }
-
-.contentSection article p {
-  margin: 10px 0;
+.contentSection.contentSectTypeB .contentSectInnerDiv article,
+.contentSection.contentSectTypeB .contentSectInnerDiv .contentMedia {
+  float: left;
 }
 
 .contentSection article {
@@ -33,20 +24,36 @@
   width: 70%;
 }
 
-.contentSectTypeB .contentImg {
+.contentSection article p {
+  margin: 10px 0;
+}
+
+.contentSection .contentMedia {
+  width: 55%;
+  min-height: 300px;
+  padding-right: 30px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.contentSection.content_A .contentMedia {
+  width: 30%;
+}
+.contentSection.contentSectTypeB .contentMedia {
   padding-right: 0;
   padding-left: 30px;
 }
-
-.contentSection .contentImg {
-  width: 55%;
-  padding-right: 30px;
-}
-.contentSection.content_A .contentImg {
-  width: 30%;
+.contentSection.content_D .contentMedia {
+  aspect-ratio: 16 / 9; /* Adjust this value based on your video's aspect ratio */
 }
 
-.contentSection .contentImg img {
+.contentSection .contentMedia img,
+.contentSection .contentMedia iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
   border-radius: 15px;
 }

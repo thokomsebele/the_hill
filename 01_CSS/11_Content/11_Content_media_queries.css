@@ -1,5 +1,5 @@
 @media only screen and (min-device-width: 100px) and (max-device-width: 999px) {
-  body .contentSection .contentImg,
+  body .contentSection .contentMedia,
   body .contentSection article {
     width: 100%;
   }
@@ -8,8 +8,8 @@
     margin-bottom: 20px;
   }
 
-  body .contentSectTypeB .contentImg,
-  body .contentSection .contentImg {
+  body .contentSectTypeB .contentMedia,
+  body .contentSection .contentMedia {
     padding-left: 0;
     padding-right: 0;
   }
