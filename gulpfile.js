@@ -14,6 +14,8 @@ let pageLinks = {
   social_media_instagram: `https://www.instagram.com/thehillprep?igsh=MWwxaWM3djV6MXJzcg==`,
   social_media_linkedin: `https://www.linkedin.com/company/the-hill-preparatory-school/`,
   social_media_youtube: `https://www.youtube.com/watch?v=KFwokZvAjSo`,
+  well_being_video: `https://youtu.be/P0L7qDNLbGg?si=uz1GDHK_w4nTuAE1`,
+  global_skills_video: `https://youtu.be/BOUbmnTc8Z0?si=TMfYTiback0TusDf`,
 };
 
 gulp.task("sections", async function () {
@@ -45,7 +47,7 @@ gulp.task("pages", async function () {
       let pgSects = ["01_Navbar", "08_Footer", "09_Banner", "11_Content"];
       pgSects = pgSects.concat(pg.pageSections);
       let htmlPartials = ["03_HTML/00_Partials/"];
-      let iconsFolders = ["03_Cells"];
+      let iconsFolders = ["03_Cells", "08_Footer"];
       pgSects.forEach((s) => {
         htmlPartials.push(`03_HTML/${s}/`);
         if (iconsFolders.includes(s)) htmlPartials.push(`03_HTML/${s}/icons`);

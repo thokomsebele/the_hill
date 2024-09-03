@@ -69,7 +69,7 @@ module.exports = [
   },
   {
     sectionTitle: "Footer section",
-    sectionSrcPathArray: ["03_HTML/08_Footer/"],
+    sectionSrcPathArray: ["03_HTML/08_Footer/", "03_HTML/08_Footer/icons"],
     sectionIncludedTemplateString: "08_Footer.njk",
     sectionOutputFileName: "08_Footer.html",
     cssFilePath: "../01_CSS/08_Footer",

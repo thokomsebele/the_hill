@@ -127,28 +127,28 @@ body {
 }
 
 .ctaBtns .ctaBtn span {
-  margin: 0 15px 0 5px;
+  margin: 0 15px;
   display: inline-block;
   line-height: 34px;
   font-size: 12px;
   font-weight: 600;
-  color: #fff;
+  color: #fff0cf;
 }
 
 body .ctaBtns .ctaBtn2 {
-  border: 1px solid #39b54a;
-  background-color: #fff;
+  border: 1px solid #0a173b;
+  background-color: #fff0cf;
 }
 
 body .ctaBtns .ctaBtn2 span {
-  color: #39b54a;
+  color: #0a173b;
 }
 
 body .ctaBtn svg {
-  fill: #ffffff;
+  fill: #fff0cf;
 }
 body .ctaBtn.ctaBtn2 svg {
-  fill: #39b54a;
+  fill: #0a173b;
 }
 
 a:active,

@@ -1,9 +1,10 @@
 <div id="footerSection" class="section">
   <div class="footerSection_row" id="footerSection_logoDiv">
-    <div id="footerSection_logoDivInner">
-      <img id="footerSection_logo" src="{{resourcesFolder}}/08_Footer/footer_logo_03.png" />
-    </div>
-  </div> 
+    <img src="{{resourcesFolder}}/08_Footer/footer_logo_04.png" />
+    <img src="{{resourcesFolder}}/08_Footer/footer_logo_03.png" />
+    <img src="{{resourcesFolder}}/08_Footer/footer_logo_05.png" />
+  </div>
+
   <div id="footerContainer">
     <div class="footerDiv footerDiv_01">
       <ul>
@@ -32,14 +33,22 @@
       </ul>
     </div>
   </div>
+
+  <div class="footerSection_row" id="footerSection_socialMediaDiv">
+    <a href="{{pageLinks.social_media_facebook}}" target="_blank">
+      {% include "facebook.njk" %}
+    </a>
+    <a href="{{pageLinks.social_media_instagram}}" target="_blank">
+      {% include "instagram.njk" %}
+    </a>
+    <a href="{{pageLinks.social_media_linkedin}}" target="_blank">
+      {% include "linkedin.njk" %}
+    </a>
+    <a href="{{pageLinks.social_media_youtube}}" target="_blank">
+      {% include "youtube.njk" %}
+    </a>
+  </div>
   <div class="footerSection_row" id="footerSection_bottomDiv">
     <h5>Copyright &#169; 2024 The Hill Preparatory School</h5>
   </div>
 </div>
-
-<!--
-<li><a href="{{pageLinks.social_media_facebook}}" target="_blank">Facebook</a></li>
-<li><a href="{{pageLinks.social_media_instagram}}" target="_blank">Instagram</a></li>
-<li><a href="{{pageLinks.social_media_linkedin}}" target="_blank">LinkedIn</a></li>
-<li><a href="{{pageLinks.social_media_youtube}}" target="_blank">Youtube</a></li>
--->

@@ -67,8 +67,8 @@
 }
 
 #carouselSection .carouselArrowDiv svg {
-  fill: #fff0cf;
+  fill: #0a173b;
 }
 #carouselSection .carouselArrowDiv:hover svg {
-  fill: #ed2224;
+  fill: #fff0cf;
 }
