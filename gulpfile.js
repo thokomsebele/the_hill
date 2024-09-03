@@ -42,7 +42,7 @@ gulp.task("pages", async function () {
     for (pg of pagesArray) {
       pg.jsFolder = "./js";
       pg.resourcesFolder = "./resources";
-      let pgSects = ["01_Navbar", "08_Footer"];
+      let pgSects = ["01_Navbar", "08_Footer", "09_Banner", "11_Content"];
       pgSects = pgSects.concat(pg.pageSections);
       let htmlPartials = ["03_HTML/00_Partials/"];
       let iconsFolders = ["03_Cells"];
